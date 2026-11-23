@@ -1,0 +1,89 @@
+key,value,decimals,display,unit,period,description
+n_series,26.0,0,26,series,,Series fetched (BLS + FRED)
+n_bls_series,22.0,0,22,series,,BLS series
+n_observation_rows,3575.0,0,"3,575",rows,,Rows in data/processed/observations.csv
+n_months_panel,130.0,0,130,months,2016-01-01 to 2026-10-01,Months in the derived monthly panel
+n_derived_columns,50.0,0,50,columns,,Metric columns in derived_monthly.csv
+n_supersector_rows,1300.0,0,"1,300",rows,,Rows in data/processed/supersectors.csv
+n_quarters_panel,42.0,0,42,quarters,2016-01-01 to 2026-04-01,Quarters in data/processed/derived_quarterly.csv (FHFA house prices)
+n_fred_series,4.0,0,4,series,,FRED series
+jobs_dfw_yoy_latest,1.5877,1,1.6,%,Oct 2026,"DFW payroll jobs, 12-month % change (SA, preliminary)"
+jobs_us_yoy_latest,0.5587,1,0.6,%,Oct 2026,"U.S. payroll jobs, 12-month % change"
+jobs_tx_yoy_latest,1.422,1,1.4,%,Oct 2026,"Texas payroll jobs, 12-month % change"
+jobs_gap_latest,1.0291,1,1.0,pts,Oct 2026,DFW minus U.S. job growth
+jobs_dfw_yoy_k_latest,68.4,1,68.4,thousand jobs,Oct 2026,DFW jobs added over 12 months (SA)
+jobs_dfw_level_latest_m,4.3764,2,4.38,million jobs,Oct 2026,DFW payroll jobs (SA)
+jobs_dfw_mom_latest,18.9,1,18.9,thousand jobs,Oct 2026,"DFW monthly job change (SA, preliminary)"
+jobs_dfw_mom_3mma_latest,5.5,1,5.5,thousand jobs/month,Oct 2026,DFW 3-month average monthly job change
+jobs_dfw_3m_ann_latest,1.5224,1,1.5,%,Oct 2026,"DFW job growth over the latest 3 months, annualized"
+jobs_dfw_mom_base_month,-10.6,1,-10.6,thousand jobs,Oct 2025,DFW monthly job change in the base month of the latest 12-month comparison
+jobs_us_mom_base_month,-140.0,0,-140,thousand jobs,Oct 2025,U.S. monthly job change in the base month of the latest 12-month comparison
+jobs_dfw_yoy_avg_2017_2019,2.614,1,2.6,%,2017-2019,"DFW average 12-month job growth, 2017-2019"
+jobs_us_yoy_avg_2017_2019,1.496,1,1.5,%,2017-2019,"U.S. average 12-month job growth, 2017-2019"
+jobs_dfw_yoy_avg_last12,0.899,1,0.9,%,Nov 2025 to Oct 2026,DFW average 12-month job growth over the latest 12 months
+jobs_us_yoy_avg_last12,0.247,2,0.25,%,Nov 2025 to Oct 2026,U.S. average 12-month job growth over the latest 12 months
+jobs_dfw_pace_share_of_2017_2019,34.3917,0,34,%,Nov 2025 to Oct 2026,Latest-12-month average growth as a share of the 2017-2019 average
+jobs_dfw_mom_avg_2017_2019,8.069,1,8.1,thousand jobs/month,2017-2019,"DFW average monthly job gain, 2017-2019"
+jobs_gap_positive_months,114.0,0,114,months,Jan 2017 to Oct 2026,Months in which DFW job growth beat the U.S.
+jobs_gap_months_total,118.0,0,118,months,Jan 2017 to Oct 2026,Months compared
+gap_mean_2017_2019,1.1182,2,1.12,pts,2017-2019,Average DFW minus U.S. gap
+gap_mean_latest_12m,0.6516,2,0.65,pts,Nov 2025 to Oct 2026,"Average gap, latest 12 months"
+gap_difference,-0.4666,2,-0.47,pts,Nov 2025 to Oct 2026,Change in the average gap (HAC regression)
+gap_ci95_low,-0.7765,2,-0.78,pts,Nov 2025 to Oct 2026,"95% CI low (Newey-West, 12 lags)"
+gap_ci95_high,-0.1567,2,-0.16,pts,Nov 2025 to Oct 2026,"95% CI high (Newey-West, 12 lags)"
+gap_p_value,0.0032,3,0.003,,Nov 2025 to Oct 2026,p-value for the change in the gap
+gap_test_n_months,48.0,0,48,months,Nov 2025 to Oct 2026,Monthly observations in the HAC regression
+ur_dfw_nsa_latest,4.1,1,4.1,%,Sep 2026,"DFW unemployment rate, as published (NSA, preliminary)"
+ur_dfw_nsa_year_ago,4.2,1,4.2,%,Sep 2025,DFW unemployment rate a year earlier (NSA)
+ur_dfw_nsa_12m_change,-0.1,1,-0.1,pts,Sep 2026,Change in the DFW rate over 12 months
+ur_dfw_sa_est_latest,4.1299,1,4.1,%,Sep 2026,"DFW unemployment rate, seasonally adjusted by this project"
+ur_tx_sa_same_month,4.4,1,4.4,%,Sep 2026,"Texas unemployment rate (SA), same month"
+ur_us_sa_same_month,4.2,1,4.2,%,Sep 2026,"U.S. unemployment rate (SA), same month"
+sa_check_mae_tx,0.099,2,0.10,pts,2016-2026,"Mean absolute gap: this project's SA method vs BLS official SA, Texas"
+sa_check_mae_us,0.052,2,0.05,pts,2016-2026,"Mean absolute gap: this project's SA method vs BLS official SA, U.S."
+sa_check_max_tx,0.472,2,0.47,pts,2016-2026,"Largest monthly gap vs BLS official SA, Texas"
+sa_check_max_us,0.157,2,0.16,pts,2016-2026,"Largest monthly gap vs BLS official SA, U.S."
+sahm_dfw_latest,0.3208,2,0.32,pts,Sep 2026,DFW Sahm-style gauge (heuristic)
+sahm_dfw_max_12m,0.4667,2,0.47,pts,Jul 2026,Highest DFW gauge reading in the latest 12 months
+sahm_us_latest,-0.0,2,0.00,pts,Oct 2026,U.S. Sahm-style gauge from BLS SA rate
+sahm_mean_variant_hits,2.0,0,2,months,"Feb 2023, Mar 2023",Months the mean-factor variant reached 0.5 since 2022
+sahm_mean_variant_hit_job_growth,4.5973,1,4.6,%,"Feb 2023, Mar 2023",DFW 12-month job growth in those months (average)
+sahm_dfw_max_12m_low,0.333,2,0.33,pts,,Lowest peak across 3 SA methods
+sahm_dfw_max_12m_high,0.467,2,0.47,pts,,Highest peak across 3 SA methods
+ahe_dfw_level_latest,38.26,2,38.26,$/hour,Oct 2026,"DFW average hourly earnings, all private employees (NSA)"
+ahe_dfw_yoy_latest,3.6014,1,3.6,%,Oct 2026,"DFW hourly earnings, 12-month % change"
+ahe_dfw_yoy_cpi_month,3.7098,1,3.7,%,Sep 2026,"DFW hourly earnings growth, CPI month"
+cpi_dfw_yoy_latest,2.9646,1,3.0,%,Sep 2026,"DFW CPI-U inflation, 12 months"
+cpi_dfw_yoy_year_ago,1.8644,1,1.9,%,Sep 2025,DFW CPI-U inflation a year earlier
+cpi_us_yoy_cpi_month,3.7377,1,3.7,%,Sep 2026,"U.S. CPI-U inflation, same month"
+real_wage_dfw_cpi_latest,0.7451,1,0.7,pts,Sep 2026,Real wage growth: wages minus DFW CPI
+real_wage_us_cpi_latest,-0.0279,1,0.0,pts,Sep 2026,Real wage growth: wages minus U.S. CPI
+real_wage_us_cpi_avg_12m,0.2384,1,0.2,pts,Oct 2025 to Sep 2026,"Average real wage growth vs U.S. CPI, 12 months"
+real_wage_us_cpi_months_used,11.0,0,11,months,Oct 2025 to Sep 2026,Months with data in that average
+real_wage_us_cpi_min_12m,-1.9502,1,-2.0,pts,Jun 2026,Lowest monthly reading in that window
+real_wage_us_cpi_max_12m,3.2536,1,3.3,pts,Nov 2025,Highest monthly reading in that window
+cpi_us_yoy_2026_min,2.3864,1,2.4,%,Jan 2026,Lowest U.S. CPI inflation in 2026
+cpi_us_yoy_2026_max,4.2487,1,4.2,%,May 2026,Highest U.S. CPI inflation in 2026
+hpi_dallas_yoy_latest,0.5257,1,0.5,%,Q2 2026,"FHFA house price index, Dallas-Plano-Irving division: change vs the same quarter a year earlier"
+hpi_fortworth_yoy_latest,0.6688,1,0.7,%,Q2 2026,"FHFA house price index, Fort Worth-Arlington-Grapevine division: change vs a year earlier"
+hpi_dallas_yoy_peak,27.7199,1,27.7,%,Q2 2022,"Largest 4-quarter gain since 2017, Dallas-Plano-Irving"
+hpi_fortworth_yoy_peak,27.4009,1,27.4,%,Q2 2022,"Largest 4-quarter gain since 2017, Fort Worth-Arlington-Grapevine"
+cpi_dfw_yoy_in_hpi_quarter,2.6062,1,2.6,%,May 2026,DFW CPI-U inflation in the CPI month(s) of Q2 2026 (DFW CPI is published every other month)
+mortgage_latest,7.328,2,7.33,%,Oct 2026,"30-year fixed rate, monthly average"
+mortgage_yoy_pp,1.074,2,1.07,pts,Oct 2026,Change vs a year earlier
+mortgage_highest_since_year,2023.0,0,2023,year,Nov 2023,Last earlier month with an average at least as high
+mortgage_2026_low,6.0475,2,6.05,%,Feb 2026,Lowest monthly average in 2026
+mortgage_latest_weekly,7.28,2,7.28,%,"Nov 19, 2026",Latest weekly survey
+permits_12m_latest,60632.0,0,"60,632",units,Sep 2026,"Housing units authorized, 12-month total"
+permits_12m_yoy,-12.0268,1,-12.0,%,Sep 2026,12-month total vs the 12 months before
+permits_12m_vs_peak,-21.4713,1,-21.5,%,peak Oct 2022,12-month total vs its peak (2016 on)
+ss_n_adding,7.0,0,7,of 10,Oct 2026,Supersectors with more jobs than a year earlier
+ss_top_yoy_k,44.6,1,44.6,thousand jobs,Oct 2026,Largest gain: Professional & business services
+ss_top_yoy_pct,5.6801,1,5.7,%,Oct 2026,"Largest gain, % change: Professional & business services"
+ss_top_share_of_net,64.7315,0,65,%,Oct 2026,Professional & business services share of the net 12-month change in total jobs (NSA)
+ss_total_nsa_yoy_k,68.9,1,68.9,thousand jobs,Oct 2026,"Net 12-month change, total jobs (NSA)"
+ss_bottom_yoy_k,-4.1,1,-4.1,thousand jobs,Oct 2026,Largest decline: Information
+ss_second_bottom_yoy_k,-3.7,1,-3.7,thousand jobs,Oct 2026,Second-largest decline: Government
+breadth_latest_of_10,7.0,0,7,of 10,Oct 2026,Supersectors adding jobs over 12 months
+ss_sum_check_max_abs_k,0.0,2,0.00,thousand jobs,,Max |sum of supersectors - total|
+n_missing_values,6.0,0,6,values,Oct 2025,Values published as unavailable

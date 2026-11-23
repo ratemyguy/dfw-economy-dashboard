@@ -1,0 +1,7 @@
+id,label,value_fmt,period,preliminary,delta_prior,delta_year,adjustment,context,date
+ur_dfw,DFW unemployment rate,4.1%,Sep 2026,True,−0.3 pts vs Aug 2026,−0.1 pts vs Sep 2025,Not seasonally adjusted (as published),"Seasonally adjusted estimate: 4.1%. Texas 4.4%, U.S. 4.2% (seasonally adjusted, Sep 2026).",2026-09-01
+jobs_dfw,DFW payroll jobs,4.38 million,Oct 2026,True,+18.9K vs Sep 2026,+68.4K (+1.6%) vs Oct 2025,Seasonally adjusted,U.S. payroll jobs: +0.6% over the same 12 months.,2026-10-01
+ahe_dfw,DFW average hourly earnings,$38.26,Oct 2026,True,+$0.24 vs Sep 2026,+3.6% vs Oct 2025,Not seasonally adjusted; all private-sector employees,"After DFW inflation: +0.7 pts (Sep 2026, wage growth minus CPI inflation).",2026-10-01
+cpi_dfw,"DFW inflation (CPI-U, 12-month)",3.0%,Sep 2026,False,+0.1 pts vs Jul 2026,+1.1 pts vs Sep 2025,Not seasonally adjusted; published every other month,U.S. CPI-U: 3.7% over the year to Sep 2026.,2026-09-01
+hpi_dallas,Dallas home prices (vs a year earlier),+0.5%,Q2 2026,False,−0.9 pts vs Q1 2026,−0.1 pts vs Q2 2025,"FHFA all-transactions index, Dallas-Plano-Irving division; quarterly, not seasonally adjusted",Fort Worth-Arlington-Grapevine division: +0.7% over the same year. Dallas index level 426.4 (1995 Q1 = 100).,2026-04-01
+mortgage30,30-year mortgage rate (U.S.),7.33%,Oct 2026 average,False,+0.47 pts vs Sep 2026,+1.07 pts vs Oct 2025,Monthly average of Freddie Mac's weekly survey,"Latest weekly reading: 7.28% (Nov 19, 2026).",2026-10-01

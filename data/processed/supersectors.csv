@@ -1,0 +1,1301 @@
+date,key,supersector,jobs_k,yoy_k,yoy_pct
+2016-01-01,ss_mlc,"Mining, logging & construction",195.2,,
+2016-02-01,ss_mlc,"Mining, logging & construction",197.3,,
+2016-03-01,ss_mlc,"Mining, logging & construction",197.0,,
+2016-04-01,ss_mlc,"Mining, logging & construction",201.1,,
+2016-05-01,ss_mlc,"Mining, logging & construction",200.6,,
+2016-06-01,ss_mlc,"Mining, logging & construction",202.9,,
+2016-07-01,ss_mlc,"Mining, logging & construction",204.1,,
+2016-08-01,ss_mlc,"Mining, logging & construction",204.7,,
+2016-09-01,ss_mlc,"Mining, logging & construction",204.9,,
+2016-10-01,ss_mlc,"Mining, logging & construction",204.3,,
+2016-11-01,ss_mlc,"Mining, logging & construction",203.7,,
+2016-12-01,ss_mlc,"Mining, logging & construction",203.9,,
+2017-01-01,ss_mlc,"Mining, logging & construction",203.0,7.8,3.9959
+2017-02-01,ss_mlc,"Mining, logging & construction",205.8,8.5,4.3082
+2017-03-01,ss_mlc,"Mining, logging & construction",207.9,10.9,5.533
+2017-04-01,ss_mlc,"Mining, logging & construction",208.8,7.7,3.8289
+2017-05-01,ss_mlc,"Mining, logging & construction",210.3,9.7,4.8355
+2017-06-01,ss_mlc,"Mining, logging & construction",214.0,11.1,5.4707
+2017-07-01,ss_mlc,"Mining, logging & construction",213.6,9.5,4.6546
+2017-08-01,ss_mlc,"Mining, logging & construction",213.0,8.3,4.0547
+2017-09-01,ss_mlc,"Mining, logging & construction",212.5,7.6,3.7091
+2017-10-01,ss_mlc,"Mining, logging & construction",213.0,8.7,4.2584
+2017-11-01,ss_mlc,"Mining, logging & construction",213.0,9.3,4.5655
+2017-12-01,ss_mlc,"Mining, logging & construction",212.7,8.8,4.3158
+2018-01-01,ss_mlc,"Mining, logging & construction",208.9,5.9,2.9064
+2018-02-01,ss_mlc,"Mining, logging & construction",211.1,5.3,2.5753
+2018-03-01,ss_mlc,"Mining, logging & construction",212.8,4.9,2.3569
+2018-04-01,ss_mlc,"Mining, logging & construction",214.1,5.3,2.5383
+2018-05-01,ss_mlc,"Mining, logging & construction",216.0,5.7,2.7104
+2018-06-01,ss_mlc,"Mining, logging & construction",219.8,5.8,2.7103
+2018-07-01,ss_mlc,"Mining, logging & construction",219.9,6.3,2.9494
+2018-08-01,ss_mlc,"Mining, logging & construction",220.3,7.3,3.4272
+2018-09-01,ss_mlc,"Mining, logging & construction",218.9,6.4,3.0118
+2018-10-01,ss_mlc,"Mining, logging & construction",217.8,4.8,2.2535
+2018-11-01,ss_mlc,"Mining, logging & construction",218.7,5.7,2.6761
+2018-12-01,ss_mlc,"Mining, logging & construction",218.8,6.1,2.8679
+2019-01-01,ss_mlc,"Mining, logging & construction",217.1,8.2,3.9253
+2019-02-01,ss_mlc,"Mining, logging & construction",218.7,7.6,3.6002
+2019-03-01,ss_mlc,"Mining, logging & construction",219.8,7.0,3.2895
+2019-04-01,ss_mlc,"Mining, logging & construction",221.3,7.2,3.3629
+2019-05-01,ss_mlc,"Mining, logging & construction",222.9,6.9,3.1944
+2019-06-01,ss_mlc,"Mining, logging & construction",226.1,6.3,2.8662
+2019-07-01,ss_mlc,"Mining, logging & construction",226.8,6.9,3.1378
+2019-08-01,ss_mlc,"Mining, logging & construction",226.7,6.4,2.9051
+2019-09-01,ss_mlc,"Mining, logging & construction",225.3,6.4,2.9237
+2019-10-01,ss_mlc,"Mining, logging & construction",225.6,7.8,3.5813
+2019-11-01,ss_mlc,"Mining, logging & construction",225.4,6.7,3.0636
+2019-12-01,ss_mlc,"Mining, logging & construction",223.9,5.1,2.3309
+2020-01-01,ss_mlc,"Mining, logging & construction",221.8,4.7,2.1649
+2020-02-01,ss_mlc,"Mining, logging & construction",223.1,4.4,2.0119
+2020-03-01,ss_mlc,"Mining, logging & construction",223.3,3.5,1.5924
+2020-04-01,ss_mlc,"Mining, logging & construction",215.0,-6.3,-2.8468
+2020-05-01,ss_mlc,"Mining, logging & construction",216.8,-6.1,-2.7367
+2020-06-01,ss_mlc,"Mining, logging & construction",216.9,-9.2,-4.069
+2020-07-01,ss_mlc,"Mining, logging & construction",214.7,-12.1,-5.3351
+2020-08-01,ss_mlc,"Mining, logging & construction",214.4,-12.3,-5.4257
+2020-09-01,ss_mlc,"Mining, logging & construction",213.6,-11.7,-5.1931
+2020-10-01,ss_mlc,"Mining, logging & construction",214.3,-11.3,-5.0089
+2020-11-01,ss_mlc,"Mining, logging & construction",213.2,-12.2,-5.4126
+2020-12-01,ss_mlc,"Mining, logging & construction",212.8,-11.1,-4.9576
+2021-01-01,ss_mlc,"Mining, logging & construction",210.6,-11.2,-5.0496
+2021-02-01,ss_mlc,"Mining, logging & construction",210.7,-12.4,-5.558
+2021-03-01,ss_mlc,"Mining, logging & construction",215.4,-7.9,-3.5378
+2021-04-01,ss_mlc,"Mining, logging & construction",216.9,1.9,0.8837
+2021-05-01,ss_mlc,"Mining, logging & construction",216.8,0.0,0.0
+2021-06-01,ss_mlc,"Mining, logging & construction",218.4,1.5,0.6916
+2021-07-01,ss_mlc,"Mining, logging & construction",219.5,4.8,2.2357
+2021-08-01,ss_mlc,"Mining, logging & construction",219.4,5.0,2.3321
+2021-09-01,ss_mlc,"Mining, logging & construction",218.6,5.0,2.3408
+2021-10-01,ss_mlc,"Mining, logging & construction",221.2,6.9,3.2198
+2021-11-01,ss_mlc,"Mining, logging & construction",222.1,8.9,4.1745
+2021-12-01,ss_mlc,"Mining, logging & construction",222.5,9.7,4.5583
+2022-01-01,ss_mlc,"Mining, logging & construction",219.4,8.8,4.1785
+2022-02-01,ss_mlc,"Mining, logging & construction",223.2,12.5,5.9326
+2022-03-01,ss_mlc,"Mining, logging & construction",225.5,10.1,4.689
+2022-04-01,ss_mlc,"Mining, logging & construction",227.4,10.5,4.8409
+2022-05-01,ss_mlc,"Mining, logging & construction",228.6,11.8,5.4428
+2022-06-01,ss_mlc,"Mining, logging & construction",231.2,12.8,5.8608
+2022-07-01,ss_mlc,"Mining, logging & construction",232.7,13.2,6.0137
+2022-08-01,ss_mlc,"Mining, logging & construction",233.8,14.4,6.5634
+2022-09-01,ss_mlc,"Mining, logging & construction",234.6,16.0,7.3193
+2022-10-01,ss_mlc,"Mining, logging & construction",233.9,12.7,5.7414
+2022-11-01,ss_mlc,"Mining, logging & construction",233.8,11.7,5.2679
+2022-12-01,ss_mlc,"Mining, logging & construction",233.4,10.9,4.8989
+2023-01-01,ss_mlc,"Mining, logging & construction",234.2,14.8,6.7457
+2023-02-01,ss_mlc,"Mining, logging & construction",236.2,13.0,5.8244
+2023-03-01,ss_mlc,"Mining, logging & construction",239.1,13.6,6.031
+2023-04-01,ss_mlc,"Mining, logging & construction",240.3,12.9,5.6728
+2023-05-01,ss_mlc,"Mining, logging & construction",241.9,13.3,5.818
+2023-06-01,ss_mlc,"Mining, logging & construction",245.7,14.5,6.2716
+2023-07-01,ss_mlc,"Mining, logging & construction",245.3,12.6,5.4147
+2023-08-01,ss_mlc,"Mining, logging & construction",246.0,12.2,5.2181
+2023-09-01,ss_mlc,"Mining, logging & construction",247.0,12.4,5.2856
+2023-10-01,ss_mlc,"Mining, logging & construction",247.2,13.3,5.6862
+2023-11-01,ss_mlc,"Mining, logging & construction",247.0,13.2,5.6459
+2023-12-01,ss_mlc,"Mining, logging & construction",248.2,14.8,6.341
+2024-01-01,ss_mlc,"Mining, logging & construction",244.9,10.7,4.5687
+2024-02-01,ss_mlc,"Mining, logging & construction",248.5,12.3,5.2075
+2024-03-01,ss_mlc,"Mining, logging & construction",251.1,12.0,5.0188
+2024-04-01,ss_mlc,"Mining, logging & construction",251.6,11.3,4.7025
+2024-05-01,ss_mlc,"Mining, logging & construction",253.5,11.6,4.7954
+2024-06-01,ss_mlc,"Mining, logging & construction",256.5,10.8,4.3956
+2024-07-01,ss_mlc,"Mining, logging & construction",257.1,11.8,4.8104
+2024-08-01,ss_mlc,"Mining, logging & construction",257.9,11.9,4.8374
+2024-09-01,ss_mlc,"Mining, logging & construction",258.0,11.0,4.4534
+2024-10-01,ss_mlc,"Mining, logging & construction",258.3,11.1,4.4903
+2024-11-01,ss_mlc,"Mining, logging & construction",258.3,11.3,4.5749
+2024-12-01,ss_mlc,"Mining, logging & construction",258.4,10.2,4.1096
+2025-01-01,ss_mlc,"Mining, logging & construction",254.8,9.9,4.0425
+2025-02-01,ss_mlc,"Mining, logging & construction",260.1,11.6,4.668
+2025-03-01,ss_mlc,"Mining, logging & construction",263.4,12.3,4.8984
+2025-04-01,ss_mlc,"Mining, logging & construction",264.7,13.1,5.2067
+2025-05-01,ss_mlc,"Mining, logging & construction",266.2,12.7,5.0099
+2025-06-01,ss_mlc,"Mining, logging & construction",268.1,11.6,4.5224
+2025-07-01,ss_mlc,"Mining, logging & construction",268.1,11.0,4.2785
+2025-08-01,ss_mlc,"Mining, logging & construction",268.1,10.2,3.955
+2025-09-01,ss_mlc,"Mining, logging & construction",267.0,9.0,3.4884
+2025-10-01,ss_mlc,"Mining, logging & construction",267.1,8.8,3.4069
+2025-11-01,ss_mlc,"Mining, logging & construction",266.4,8.1,3.1359
+2025-12-01,ss_mlc,"Mining, logging & construction",265.7,7.3,2.8251
+2026-01-01,ss_mlc,"Mining, logging & construction",265.9,11.1,4.3564
+2026-02-01,ss_mlc,"Mining, logging & construction",266.3,6.2,2.3837
+2026-03-01,ss_mlc,"Mining, logging & construction",268.2,4.8,1.8223
+2026-04-01,ss_mlc,"Mining, logging & construction",267.8,3.1,1.1711
+2026-05-01,ss_mlc,"Mining, logging & construction",270.6,4.4,1.6529
+2026-06-01,ss_mlc,"Mining, logging & construction",274.2,6.1,2.2753
+2026-07-01,ss_mlc,"Mining, logging & construction",273.9,5.8,2.1634
+2026-08-01,ss_mlc,"Mining, logging & construction",276.5,8.4,3.1332
+2026-09-01,ss_mlc,"Mining, logging & construction",275.6,8.6,3.221
+2026-10-01,ss_mlc,"Mining, logging & construction",277.7,10.6,3.9686
+2016-01-01,ss_mfg,Manufacturing,262.2,,
+2016-02-01,ss_mfg,Manufacturing,263.4,,
+2016-03-01,ss_mfg,Manufacturing,263.1,,
+2016-04-01,ss_mfg,Manufacturing,262.9,,
+2016-05-01,ss_mfg,Manufacturing,263.2,,
+2016-06-01,ss_mfg,Manufacturing,264.6,,
+2016-07-01,ss_mfg,Manufacturing,265.9,,
+2016-08-01,ss_mfg,Manufacturing,265.6,,
+2016-09-01,ss_mfg,Manufacturing,264.6,,
+2016-10-01,ss_mfg,Manufacturing,264.9,,
+2016-11-01,ss_mfg,Manufacturing,265.5,,
+2016-12-01,ss_mfg,Manufacturing,266.6,,
+2017-01-01,ss_mfg,Manufacturing,265.2,3.0,1.1442
+2017-02-01,ss_mfg,Manufacturing,266.8,3.4,1.2908
+2017-03-01,ss_mfg,Manufacturing,267.3,4.2,1.5964
+2017-04-01,ss_mfg,Manufacturing,267.7,4.8,1.8258
+2017-05-01,ss_mfg,Manufacturing,268.0,4.8,1.8237
+2017-06-01,ss_mfg,Manufacturing,271.5,6.9,2.6077
+2017-07-01,ss_mfg,Manufacturing,272.0,6.1,2.2941
+2017-08-01,ss_mfg,Manufacturing,271.9,6.3,2.372
+2017-09-01,ss_mfg,Manufacturing,271.4,6.8,2.5699
+2017-10-01,ss_mfg,Manufacturing,271.8,6.9,2.6048
+2017-11-01,ss_mfg,Manufacturing,272.3,6.8,2.5612
+2017-12-01,ss_mfg,Manufacturing,273.7,7.1,2.6632
+2018-01-01,ss_mfg,Manufacturing,272.0,6.8,2.5641
+2018-02-01,ss_mfg,Manufacturing,274.0,7.2,2.6987
+2018-03-01,ss_mfg,Manufacturing,274.7,7.4,2.7684
+2018-04-01,ss_mfg,Manufacturing,274.4,6.7,2.5028
+2018-05-01,ss_mfg,Manufacturing,275.7,7.7,2.8731
+2018-06-01,ss_mfg,Manufacturing,279.2,7.7,2.8361
+2018-07-01,ss_mfg,Manufacturing,280.0,8.0,2.9412
+2018-08-01,ss_mfg,Manufacturing,280.3,8.4,3.0894
+2018-09-01,ss_mfg,Manufacturing,280.2,8.8,3.2424
+2018-10-01,ss_mfg,Manufacturing,280.8,9.0,3.3113
+2018-11-01,ss_mfg,Manufacturing,282.1,9.8,3.599
+2018-12-01,ss_mfg,Manufacturing,283.2,9.5,3.471
+2019-01-01,ss_mfg,Manufacturing,283.2,11.2,4.1176
+2019-02-01,ss_mfg,Manufacturing,285.6,11.6,4.2336
+2019-03-01,ss_mfg,Manufacturing,286.0,11.3,4.1136
+2019-04-01,ss_mfg,Manufacturing,286.6,12.2,4.4461
+2019-05-01,ss_mfg,Manufacturing,287.4,11.7,4.2437
+2019-06-01,ss_mfg,Manufacturing,290.8,11.6,4.1547
+2019-07-01,ss_mfg,Manufacturing,289.9,9.9,3.5357
+2019-08-01,ss_mfg,Manufacturing,289.9,9.6,3.4249
+2019-09-01,ss_mfg,Manufacturing,289.4,9.2,3.2834
+2019-10-01,ss_mfg,Manufacturing,285.3,4.5,1.6026
+2019-11-01,ss_mfg,Manufacturing,290.0,7.9,2.8004
+2019-12-01,ss_mfg,Manufacturing,290.4,7.2,2.5424
+2020-01-01,ss_mfg,Manufacturing,289.1,5.9,2.0833
+2020-02-01,ss_mfg,Manufacturing,290.0,4.4,1.5406
+2020-03-01,ss_mfg,Manufacturing,289.1,3.1,1.0839
+2020-04-01,ss_mfg,Manufacturing,270.7,-15.9,-5.5478
+2020-05-01,ss_mfg,Manufacturing,271.5,-15.9,-5.5324
+2020-06-01,ss_mfg,Manufacturing,277.1,-13.7,-4.7111
+2020-07-01,ss_mfg,Manufacturing,277.9,-12.0,-4.1394
+2020-08-01,ss_mfg,Manufacturing,278.7,-11.2,-3.8634
+2020-09-01,ss_mfg,Manufacturing,278.3,-11.1,-3.8355
+2020-10-01,ss_mfg,Manufacturing,278.9,-6.4,-2.2433
+2020-11-01,ss_mfg,Manufacturing,279.8,-10.2,-3.5172
+2020-12-01,ss_mfg,Manufacturing,281.5,-8.9,-3.0647
+2021-01-01,ss_mfg,Manufacturing,280.0,-9.1,-3.1477
+2021-02-01,ss_mfg,Manufacturing,280.9,-9.1,-3.1379
+2021-03-01,ss_mfg,Manufacturing,282.9,-6.2,-2.1446
+2021-04-01,ss_mfg,Manufacturing,282.5,11.8,4.3591
+2021-05-01,ss_mfg,Manufacturing,282.7,11.2,4.1252
+2021-06-01,ss_mfg,Manufacturing,285.8,8.7,3.1397
+2021-07-01,ss_mfg,Manufacturing,287.0,9.1,3.2746
+2021-08-01,ss_mfg,Manufacturing,287.3,8.6,3.0858
+2021-09-01,ss_mfg,Manufacturing,285.9,7.6,2.7309
+2021-10-01,ss_mfg,Manufacturing,288.4,9.5,3.4062
+2021-11-01,ss_mfg,Manufacturing,290.1,10.3,3.6812
+2021-12-01,ss_mfg,Manufacturing,292.6,11.1,3.9432
+2022-01-01,ss_mfg,Manufacturing,289.8,9.8,3.5
+2022-02-01,ss_mfg,Manufacturing,293.5,12.6,4.4856
+2022-03-01,ss_mfg,Manufacturing,294.2,11.3,3.9943
+2022-04-01,ss_mfg,Manufacturing,296.0,13.5,4.7788
+2022-05-01,ss_mfg,Manufacturing,296.8,14.1,4.9876
+2022-06-01,ss_mfg,Manufacturing,299.6,13.8,4.8286
+2022-07-01,ss_mfg,Manufacturing,301.2,14.2,4.9477
+2022-08-01,ss_mfg,Manufacturing,301.7,14.4,5.0122
+2022-09-01,ss_mfg,Manufacturing,301.5,15.6,5.4565
+2022-10-01,ss_mfg,Manufacturing,300.8,12.4,4.2996
+2022-11-01,ss_mfg,Manufacturing,301.9,11.8,4.0676
+2022-12-01,ss_mfg,Manufacturing,303.7,11.1,3.7936
+2023-01-01,ss_mfg,Manufacturing,301.8,12.0,4.1408
+2023-02-01,ss_mfg,Manufacturing,303.3,9.8,3.339
+2023-03-01,ss_mfg,Manufacturing,303.2,9.0,3.0591
+2023-04-01,ss_mfg,Manufacturing,303.7,7.7,2.6014
+2023-05-01,ss_mfg,Manufacturing,304.6,7.8,2.628
+2023-06-01,ss_mfg,Manufacturing,308.8,9.2,3.0708
+2023-07-01,ss_mfg,Manufacturing,308.8,7.6,2.5232
+2023-08-01,ss_mfg,Manufacturing,309.0,7.3,2.4196
+2023-09-01,ss_mfg,Manufacturing,308.8,7.3,2.4212
+2023-10-01,ss_mfg,Manufacturing,307.8,7.0,2.3271
+2023-11-01,ss_mfg,Manufacturing,308.6,6.7,2.2193
+2023-12-01,ss_mfg,Manufacturing,310.2,6.5,2.1403
+2024-01-01,ss_mfg,Manufacturing,308.6,6.8,2.2531
+2024-02-01,ss_mfg,Manufacturing,310.6,7.3,2.4069
+2024-03-01,ss_mfg,Manufacturing,310.7,7.5,2.4736
+2024-04-01,ss_mfg,Manufacturing,310.5,6.8,2.2391
+2024-05-01,ss_mfg,Manufacturing,311.3,6.7,2.1996
+2024-06-01,ss_mfg,Manufacturing,313.7,4.9,1.5868
+2024-07-01,ss_mfg,Manufacturing,313.8,5.0,1.6192
+2024-08-01,ss_mfg,Manufacturing,312.8,3.8,1.2298
+2024-09-01,ss_mfg,Manufacturing,312.5,3.7,1.1982
+2024-10-01,ss_mfg,Manufacturing,313.4,5.6,1.8194
+2024-11-01,ss_mfg,Manufacturing,313.7,5.1,1.6526
+2024-12-01,ss_mfg,Manufacturing,315.0,4.8,1.5474
+2025-01-01,ss_mfg,Manufacturing,313.0,4.4,1.4258
+2025-02-01,ss_mfg,Manufacturing,313.9,3.3,1.0625
+2025-03-01,ss_mfg,Manufacturing,313.7,3.0,0.9656
+2025-04-01,ss_mfg,Manufacturing,313.9,3.4,1.095
+2025-05-01,ss_mfg,Manufacturing,314.5,3.2,1.0279
+2025-06-01,ss_mfg,Manufacturing,315.8,2.1,0.6694
+2025-07-01,ss_mfg,Manufacturing,315.9,2.1,0.6692
+2025-08-01,ss_mfg,Manufacturing,314.2,1.4,0.4476
+2025-09-01,ss_mfg,Manufacturing,313.1,0.6,0.192
+2025-10-01,ss_mfg,Manufacturing,312.4,-1.0,-0.3191
+2025-11-01,ss_mfg,Manufacturing,311.9,-1.8,-0.5738
+2025-12-01,ss_mfg,Manufacturing,313.0,-2.0,-0.6349
+2026-01-01,ss_mfg,Manufacturing,310.7,-2.3,-0.7348
+2026-02-01,ss_mfg,Manufacturing,310.7,-3.2,-1.0194
+2026-03-01,ss_mfg,Manufacturing,310.5,-3.2,-1.0201
+2026-04-01,ss_mfg,Manufacturing,309.6,-4.3,-1.3699
+2026-05-01,ss_mfg,Manufacturing,310.6,-3.9,-1.2401
+2026-06-01,ss_mfg,Manufacturing,313.9,-1.9,-0.6016
+2026-07-01,ss_mfg,Manufacturing,313.4,-2.5,-0.7914
+2026-08-01,ss_mfg,Manufacturing,313.1,-1.1,-0.3501
+2026-09-01,ss_mfg,Manufacturing,313.8,0.7,0.2236
+2026-10-01,ss_mfg,Manufacturing,315.2,2.8,0.8963
+2016-01-01,ss_ttu,"Trade, transportation & utilities",728.2,,
+2016-02-01,ss_ttu,"Trade, transportation & utilities",726.8,,
+2016-03-01,ss_ttu,"Trade, transportation & utilities",727.0,,
+2016-04-01,ss_ttu,"Trade, transportation & utilities",730.8,,
+2016-05-01,ss_ttu,"Trade, transportation & utilities",732.7,,
+2016-06-01,ss_ttu,"Trade, transportation & utilities",736.9,,
+2016-07-01,ss_ttu,"Trade, transportation & utilities",740.5,,
+2016-08-01,ss_ttu,"Trade, transportation & utilities",744.8,,
+2016-09-01,ss_ttu,"Trade, transportation & utilities",743.4,,
+2016-10-01,ss_ttu,"Trade, transportation & utilities",751.7,,
+2016-11-01,ss_ttu,"Trade, transportation & utilities",770.0,,
+2016-12-01,ss_ttu,"Trade, transportation & utilities",779.0,,
+2017-01-01,ss_ttu,"Trade, transportation & utilities",754.7,26.5,3.6391
+2017-02-01,ss_ttu,"Trade, transportation & utilities",748.0,21.2,2.9169
+2017-03-01,ss_ttu,"Trade, transportation & utilities",747.0,20.0,2.751
+2017-04-01,ss_ttu,"Trade, transportation & utilities",747.7,16.9,2.3125
+2017-05-01,ss_ttu,"Trade, transportation & utilities",750.0,17.3,2.3611
+2017-06-01,ss_ttu,"Trade, transportation & utilities",757.3,20.4,2.7684
+2017-07-01,ss_ttu,"Trade, transportation & utilities",758.1,17.6,2.3768
+2017-08-01,ss_ttu,"Trade, transportation & utilities",765.4,20.6,2.7658
+2017-09-01,ss_ttu,"Trade, transportation & utilities",763.3,19.9,2.6769
+2017-10-01,ss_ttu,"Trade, transportation & utilities",771.5,19.8,2.634
+2017-11-01,ss_ttu,"Trade, transportation & utilities",793.5,23.5,3.0519
+2017-12-01,ss_ttu,"Trade, transportation & utilities",798.2,19.2,2.4647
+2018-01-01,ss_ttu,"Trade, transportation & utilities",770.4,15.7,2.0803
+2018-02-01,ss_ttu,"Trade, transportation & utilities",764.5,16.5,2.2059
+2018-03-01,ss_ttu,"Trade, transportation & utilities",763.9,16.9,2.2624
+2018-04-01,ss_ttu,"Trade, transportation & utilities",765.6,17.9,2.394
+2018-05-01,ss_ttu,"Trade, transportation & utilities",769.9,19.9,2.6533
+2018-06-01,ss_ttu,"Trade, transportation & utilities",773.7,16.4,2.1656
+2018-07-01,ss_ttu,"Trade, transportation & utilities",774.8,16.7,2.2029
+2018-08-01,ss_ttu,"Trade, transportation & utilities",779.1,13.7,1.7899
+2018-09-01,ss_ttu,"Trade, transportation & utilities",777.9,14.6,1.9127
+2018-10-01,ss_ttu,"Trade, transportation & utilities",783.7,12.2,1.5813
+2018-11-01,ss_ttu,"Trade, transportation & utilities",805.5,12.0,1.5123
+2018-12-01,ss_ttu,"Trade, transportation & utilities",808.6,10.4,1.3029
+2019-01-01,ss_ttu,"Trade, transportation & utilities",782.9,12.5,1.6225
+2019-02-01,ss_ttu,"Trade, transportation & utilities",775.7,11.2,1.465
+2019-03-01,ss_ttu,"Trade, transportation & utilities",774.0,10.1,1.3222
+2019-04-01,ss_ttu,"Trade, transportation & utilities",774.0,8.4,1.0972
+2019-05-01,ss_ttu,"Trade, transportation & utilities",777.0,7.1,0.9222
+2019-06-01,ss_ttu,"Trade, transportation & utilities",782.9,9.2,1.1891
+2019-07-01,ss_ttu,"Trade, transportation & utilities",787.5,12.7,1.6391
+2019-08-01,ss_ttu,"Trade, transportation & utilities",790.3,11.2,1.4376
+2019-09-01,ss_ttu,"Trade, transportation & utilities",789.4,11.5,1.4783
+2019-10-01,ss_ttu,"Trade, transportation & utilities",802.9,19.2,2.4499
+2019-11-01,ss_ttu,"Trade, transportation & utilities",828.0,22.5,2.7933
+2019-12-01,ss_ttu,"Trade, transportation & utilities",832.8,24.2,2.9928
+2020-01-01,ss_ttu,"Trade, transportation & utilities",802.4,19.5,2.4907
+2020-02-01,ss_ttu,"Trade, transportation & utilities",796.5,20.8,2.6814
+2020-03-01,ss_ttu,"Trade, transportation & utilities",794.6,20.6,2.6615
+2020-04-01,ss_ttu,"Trade, transportation & utilities",733.8,-40.2,-5.1938
+2020-05-01,ss_ttu,"Trade, transportation & utilities",754.3,-22.7,-2.9215
+2020-06-01,ss_ttu,"Trade, transportation & utilities",777.6,-5.3,-0.677
+2020-07-01,ss_ttu,"Trade, transportation & utilities",782.4,-5.1,-0.6476
+2020-08-01,ss_ttu,"Trade, transportation & utilities",787.5,-2.8,-0.3543
+2020-09-01,ss_ttu,"Trade, transportation & utilities",793.6,4.2,0.532
+2020-10-01,ss_ttu,"Trade, transportation & utilities",817.3,14.4,1.7935
+2020-11-01,ss_ttu,"Trade, transportation & utilities",837.0,9.0,1.087
+2020-12-01,ss_ttu,"Trade, transportation & utilities",842.8,10.0,1.2008
+2021-01-01,ss_ttu,"Trade, transportation & utilities",814.8,12.4,1.5454
+2021-02-01,ss_ttu,"Trade, transportation & utilities",809.3,12.8,1.607
+2021-03-01,ss_ttu,"Trade, transportation & utilities",813.7,19.1,2.4037
+2021-04-01,ss_ttu,"Trade, transportation & utilities",807.7,73.9,10.0709
+2021-05-01,ss_ttu,"Trade, transportation & utilities",812.1,57.8,7.6627
+2021-06-01,ss_ttu,"Trade, transportation & utilities",821.1,43.5,5.5941
+2021-07-01,ss_ttu,"Trade, transportation & utilities",826.4,44.0,5.6237
+2021-08-01,ss_ttu,"Trade, transportation & utilities",829.2,41.7,5.2952
+2021-09-01,ss_ttu,"Trade, transportation & utilities",830.4,36.8,4.6371
+2021-10-01,ss_ttu,"Trade, transportation & utilities",849.5,32.2,3.9398
+2021-11-01,ss_ttu,"Trade, transportation & utilities",874.4,37.4,4.4683
+2021-12-01,ss_ttu,"Trade, transportation & utilities",884.4,41.6,4.9359
+2022-01-01,ss_ttu,"Trade, transportation & utilities",856.3,41.5,5.0933
+2022-02-01,ss_ttu,"Trade, transportation & utilities",862.1,52.8,6.5242
+2022-03-01,ss_ttu,"Trade, transportation & utilities",861.9,48.2,5.9236
+2022-04-01,ss_ttu,"Trade, transportation & utilities",865.6,57.9,7.1685
+2022-05-01,ss_ttu,"Trade, transportation & utilities",867.3,55.2,6.7972
+2022-06-01,ss_ttu,"Trade, transportation & utilities",871.1,50.0,6.0894
+2022-07-01,ss_ttu,"Trade, transportation & utilities",876.6,50.2,6.0745
+2022-08-01,ss_ttu,"Trade, transportation & utilities",880.6,51.4,6.1987
+2022-09-01,ss_ttu,"Trade, transportation & utilities",882.4,52.0,6.262
+2022-10-01,ss_ttu,"Trade, transportation & utilities",892.9,43.4,5.1089
+2022-11-01,ss_ttu,"Trade, transportation & utilities",910.5,36.1,4.1285
+2022-12-01,ss_ttu,"Trade, transportation & utilities",915.0,30.6,3.46
+2023-01-01,ss_ttu,"Trade, transportation & utilities",891.1,34.8,4.064
+2023-02-01,ss_ttu,"Trade, transportation & utilities",884.6,22.5,2.6099
+2023-03-01,ss_ttu,"Trade, transportation & utilities",882.7,20.8,2.4133
+2023-04-01,ss_ttu,"Trade, transportation & utilities",883.4,17.8,2.0564
+2023-05-01,ss_ttu,"Trade, transportation & utilities",884.6,17.3,1.9947
+2023-06-01,ss_ttu,"Trade, transportation & utilities",887.5,16.4,1.8827
+2023-07-01,ss_ttu,"Trade, transportation & utilities",885.1,8.5,0.9697
+2023-08-01,ss_ttu,"Trade, transportation & utilities",886.6,6.0,0.6814
+2023-09-01,ss_ttu,"Trade, transportation & utilities",886.6,4.2,0.476
+2023-10-01,ss_ttu,"Trade, transportation & utilities",894.1,1.2,0.1344
+2023-11-01,ss_ttu,"Trade, transportation & utilities",913.6,3.1,0.3405
+2023-12-01,ss_ttu,"Trade, transportation & utilities",919.6,4.6,0.5027
+2024-01-01,ss_ttu,"Trade, transportation & utilities",892.1,1.0,0.1122
+2024-02-01,ss_ttu,"Trade, transportation & utilities",882.9,-1.7,-0.1922
+2024-03-01,ss_ttu,"Trade, transportation & utilities",879.6,-3.1,-0.3512
+2024-04-01,ss_ttu,"Trade, transportation & utilities",879.6,-3.8,-0.4302
+2024-05-01,ss_ttu,"Trade, transportation & utilities",883.9,-0.7,-0.0791
+2024-06-01,ss_ttu,"Trade, transportation & utilities",886.7,-0.8,-0.0901
+2024-07-01,ss_ttu,"Trade, transportation & utilities",886.5,1.4,0.1582
+2024-08-01,ss_ttu,"Trade, transportation & utilities",888.6,2.0,0.2256
+2024-09-01,ss_ttu,"Trade, transportation & utilities",889.1,2.5,0.282
+2024-10-01,ss_ttu,"Trade, transportation & utilities",895.1,1.0,0.1118
+2024-11-01,ss_ttu,"Trade, transportation & utilities",913.1,-0.5,-0.0547
+2024-12-01,ss_ttu,"Trade, transportation & utilities",920.6,1.0,0.1087
+2025-01-01,ss_ttu,"Trade, transportation & utilities",893.3,1.2,0.1345
+2025-02-01,ss_ttu,"Trade, transportation & utilities",888.3,5.4,0.6116
+2025-03-01,ss_ttu,"Trade, transportation & utilities",885.4,5.8,0.6594
+2025-04-01,ss_ttu,"Trade, transportation & utilities",882.7,3.1,0.3524
+2025-05-01,ss_ttu,"Trade, transportation & utilities",885.1,1.2,0.1358
+2025-06-01,ss_ttu,"Trade, transportation & utilities",885.7,-1.0,-0.1128
+2025-07-01,ss_ttu,"Trade, transportation & utilities",887.0,0.5,0.0564
+2025-08-01,ss_ttu,"Trade, transportation & utilities",887.8,-0.8,-0.09
+2025-09-01,ss_ttu,"Trade, transportation & utilities",885.1,-4.0,-0.4499
+2025-10-01,ss_ttu,"Trade, transportation & utilities",894.7,-0.4,-0.0447
+2025-11-01,ss_ttu,"Trade, transportation & utilities",906.9,-6.2,-0.679
+2025-12-01,ss_ttu,"Trade, transportation & utilities",916.7,-3.9,-0.4236
+2026-01-01,ss_ttu,"Trade, transportation & utilities",887.4,-5.9,-0.6605
+2026-02-01,ss_ttu,"Trade, transportation & utilities",883.8,-4.5,-0.5066
+2026-03-01,ss_ttu,"Trade, transportation & utilities",887.7,2.3,0.2598
+2026-04-01,ss_ttu,"Trade, transportation & utilities",890.8,8.1,0.9176
+2026-05-01,ss_ttu,"Trade, transportation & utilities",893.3,8.2,0.9264
+2026-06-01,ss_ttu,"Trade, transportation & utilities",895.3,9.6,1.0839
+2026-07-01,ss_ttu,"Trade, transportation & utilities",894.2,7.2,0.8117
+2026-08-01,ss_ttu,"Trade, transportation & utilities",894.0,6.2,0.6984
+2026-09-01,ss_ttu,"Trade, transportation & utilities",894.9,9.8,1.1072
+2026-10-01,ss_ttu,"Trade, transportation & utilities",908.4,13.7,1.5312
+2016-01-01,ss_info,Information,81.3,,
+2016-02-01,ss_info,Information,81.5,,
+2016-03-01,ss_info,Information,81.5,,
+2016-04-01,ss_info,Information,82.9,,
+2016-05-01,ss_info,Information,82.8,,
+2016-06-01,ss_info,Information,83.4,,
+2016-07-01,ss_info,Information,83.9,,
+2016-08-01,ss_info,Information,83.9,,
+2016-09-01,ss_info,Information,83.4,,
+2016-10-01,ss_info,Information,82.7,,
+2016-11-01,ss_info,Information,83.3,,
+2016-12-01,ss_info,Information,83.7,,
+2017-01-01,ss_info,Information,83.4,2.1,2.583
+2017-02-01,ss_info,Information,83.6,2.1,2.5767
+2017-03-01,ss_info,Information,84.5,3.0,3.681
+2017-04-01,ss_info,Information,84.0,1.1,1.3269
+2017-05-01,ss_info,Information,83.8,1.0,1.2077
+2017-06-01,ss_info,Information,84.3,0.9,1.0791
+2017-07-01,ss_info,Information,84.3,0.4,0.4768
+2017-08-01,ss_info,Information,84.0,0.1,0.1192
+2017-09-01,ss_info,Information,82.9,-0.5,-0.5995
+2017-10-01,ss_info,Information,82.7,0.0,0.0
+2017-11-01,ss_info,Information,83.3,0.0,0.0
+2017-12-01,ss_info,Information,83.6,-0.1,-0.1195
+2018-01-01,ss_info,Information,83.0,-0.4,-0.4796
+2018-02-01,ss_info,Information,83.8,0.2,0.2392
+2018-03-01,ss_info,Information,83.5,-1.0,-1.1834
+2018-04-01,ss_info,Information,83.1,-0.9,-1.0714
+2018-05-01,ss_info,Information,83.4,-0.4,-0.4773
+2018-06-01,ss_info,Information,84.3,0.0,0.0
+2018-07-01,ss_info,Information,83.6,-0.7,-0.8304
+2018-08-01,ss_info,Information,82.8,-1.2,-1.4286
+2018-09-01,ss_info,Information,81.6,-1.3,-1.5682
+2018-10-01,ss_info,Information,81.7,-1.0,-1.2092
+2018-11-01,ss_info,Information,82.1,-1.2,-1.4406
+2018-12-01,ss_info,Information,82.3,-1.3,-1.555
+2019-01-01,ss_info,Information,81.1,-1.9,-2.2892
+2019-02-01,ss_info,Information,81.5,-2.3,-2.7446
+2019-03-01,ss_info,Information,81.3,-2.2,-2.6347
+2019-04-01,ss_info,Information,81.5,-1.6,-1.9254
+2019-05-01,ss_info,Information,81.7,-1.7,-2.0384
+2019-06-01,ss_info,Information,82.5,-1.8,-2.1352
+2019-07-01,ss_info,Information,82.3,-1.3,-1.555
+2019-08-01,ss_info,Information,82.7,-0.1,-0.1208
+2019-09-01,ss_info,Information,81.8,0.2,0.2451
+2019-10-01,ss_info,Information,82.1,0.4,0.4896
+2019-11-01,ss_info,Information,82.5,0.4,0.4872
+2019-12-01,ss_info,Information,82.9,0.6,0.729
+2020-01-01,ss_info,Information,83.0,1.9,2.3428
+2020-02-01,ss_info,Information,83.0,1.5,1.8405
+2020-03-01,ss_info,Information,82.1,0.8,0.984
+2020-04-01,ss_info,Information,77.4,-4.1,-5.0307
+2020-05-01,ss_info,Information,76.9,-4.8,-5.8752
+2020-06-01,ss_info,Information,77.0,-5.5,-6.6667
+2020-07-01,ss_info,Information,77.0,-5.3,-6.4399
+2020-08-01,ss_info,Information,77.2,-5.5,-6.6505
+2020-09-01,ss_info,Information,77.8,-4.0,-4.89
+2020-10-01,ss_info,Information,77.9,-4.2,-5.1157
+2020-11-01,ss_info,Information,77.9,-4.6,-5.5758
+2020-12-01,ss_info,Information,78.7,-4.2,-5.0663
+2021-01-01,ss_info,Information,79.8,-3.2,-3.8554
+2021-02-01,ss_info,Information,79.6,-3.4,-4.0964
+2021-03-01,ss_info,Information,79.9,-2.2,-2.6797
+2021-04-01,ss_info,Information,80.7,3.3,4.2636
+2021-05-01,ss_info,Information,80.9,4.0,5.2016
+2021-06-01,ss_info,Information,81.8,4.8,6.2338
+2021-07-01,ss_info,Information,82.6,5.6,7.2727
+2021-08-01,ss_info,Information,83.0,5.8,7.513
+2021-09-01,ss_info,Information,83.3,5.5,7.0694
+2021-10-01,ss_info,Information,85.4,7.5,9.6277
+2021-11-01,ss_info,Information,85.9,8.0,10.2696
+2021-12-01,ss_info,Information,87.0,8.3,10.5464
+2022-01-01,ss_info,Information,86.8,7.0,8.7719
+2022-02-01,ss_info,Information,87.2,7.6,9.5477
+2022-03-01,ss_info,Information,87.9,8.0,10.0125
+2022-04-01,ss_info,Information,89.0,8.3,10.285
+2022-05-01,ss_info,Information,89.9,9.0,11.1248
+2022-06-01,ss_info,Information,90.7,8.9,10.8802
+2022-07-01,ss_info,Information,92.6,10.0,12.1065
+2022-08-01,ss_info,Information,92.4,9.4,11.3253
+2022-09-01,ss_info,Information,92.0,8.7,10.4442
+2022-10-01,ss_info,Information,92.2,6.8,7.9625
+2022-11-01,ss_info,Information,93.4,7.5,8.7311
+2022-12-01,ss_info,Information,93.1,6.1,7.0115
+2023-01-01,ss_info,Information,92.7,5.9,6.7972
+2023-02-01,ss_info,Information,92.6,5.4,6.1927
+2023-03-01,ss_info,Information,92.9,5.0,5.6883
+2023-04-01,ss_info,Information,92.5,3.5,3.9326
+2023-05-01,ss_info,Information,92.3,2.4,2.6696
+2023-06-01,ss_info,Information,92.3,1.6,1.7641
+2023-07-01,ss_info,Information,91.1,-1.5,-1.6199
+2023-08-01,ss_info,Information,90.8,-1.6,-1.7316
+2023-09-01,ss_info,Information,89.6,-2.4,-2.6087
+2023-10-01,ss_info,Information,90.0,-2.2,-2.3861
+2023-11-01,ss_info,Information,90.1,-3.3,-3.5332
+2023-12-01,ss_info,Information,89.7,-3.4,-3.652
+2024-01-01,ss_info,Information,88.8,-3.9,-4.2071
+2024-02-01,ss_info,Information,88.4,-4.2,-4.5356
+2024-03-01,ss_info,Information,88.2,-4.7,-5.0592
+2024-04-01,ss_info,Information,88.3,-4.2,-4.5405
+2024-05-01,ss_info,Information,87.8,-4.5,-4.8754
+2024-06-01,ss_info,Information,88.3,-4.0,-4.3337
+2024-07-01,ss_info,Information,88.6,-2.5,-2.7442
+2024-08-01,ss_info,Information,88.1,-2.7,-2.9736
+2024-09-01,ss_info,Information,87.5,-2.1,-2.3437
+2024-10-01,ss_info,Information,87.2,-2.8,-3.1111
+2024-11-01,ss_info,Information,87.3,-2.8,-3.1077
+2024-12-01,ss_info,Information,87.5,-2.2,-2.4526
+2025-01-01,ss_info,Information,87.1,-1.7,-1.9144
+2025-02-01,ss_info,Information,87.2,-1.2,-1.3575
+2025-03-01,ss_info,Information,86.8,-1.4,-1.5873
+2025-04-01,ss_info,Information,87.2,-1.1,-1.2458
+2025-05-01,ss_info,Information,87.3,-0.5,-0.5695
+2025-06-01,ss_info,Information,88.2,-0.1,-0.1133
+2025-07-01,ss_info,Information,88.6,0.0,0.0
+2025-08-01,ss_info,Information,87.0,-1.1,-1.2486
+2025-09-01,ss_info,Information,86.4,-1.1,-1.2571
+2025-10-01,ss_info,Information,86.9,-0.3,-0.344
+2025-11-01,ss_info,Information,87.1,-0.2,-0.2291
+2025-12-01,ss_info,Information,87.6,0.1,0.1143
+2026-01-01,ss_info,Information,85.1,-2.0,-2.2962
+2026-02-01,ss_info,Information,85.0,-2.2,-2.5229
+2026-03-01,ss_info,Information,85.2,-1.6,-1.8433
+2026-04-01,ss_info,Information,84.7,-2.5,-2.867
+2026-05-01,ss_info,Information,85.3,-2.0,-2.291
+2026-06-01,ss_info,Information,86.1,-2.1,-2.381
+2026-07-01,ss_info,Information,86.4,-2.2,-2.4831
+2026-08-01,ss_info,Information,83.3,-3.7,-4.2529
+2026-09-01,ss_info,Information,82.4,-4.0,-4.6296
+2026-10-01,ss_info,Information,82.8,-4.1,-4.7181
+2016-01-01,ss_fin,Financial activities,276.6,,
+2016-02-01,ss_fin,Financial activities,277.6,,
+2016-03-01,ss_fin,Financial activities,277.8,,
+2016-04-01,ss_fin,Financial activities,279.7,,
+2016-05-01,ss_fin,Financial activities,281.2,,
+2016-06-01,ss_fin,Financial activities,282.4,,
+2016-07-01,ss_fin,Financial activities,284.2,,
+2016-08-01,ss_fin,Financial activities,285.0,,
+2016-09-01,ss_fin,Financial activities,285.6,,
+2016-10-01,ss_fin,Financial activities,287.2,,
+2016-11-01,ss_fin,Financial activities,288.3,,
+2016-12-01,ss_fin,Financial activities,289.6,,
+2017-01-01,ss_fin,Financial activities,287.5,10.9,3.9407
+2017-02-01,ss_fin,Financial activities,289.1,11.5,4.1427
+2017-03-01,ss_fin,Financial activities,290.2,12.4,4.4636
+2017-04-01,ss_fin,Financial activities,292.3,12.6,4.5048
+2017-05-01,ss_fin,Financial activities,293.4,12.2,4.3385
+2017-06-01,ss_fin,Financial activities,295.7,13.3,4.7096
+2017-07-01,ss_fin,Financial activities,296.7,12.5,4.3983
+2017-08-01,ss_fin,Financial activities,297.1,12.1,4.2456
+2017-09-01,ss_fin,Financial activities,299.2,13.6,4.7619
+2017-10-01,ss_fin,Financial activities,299.3,12.1,4.2131
+2017-11-01,ss_fin,Financial activities,298.5,10.2,3.538
+2017-12-01,ss_fin,Financial activities,299.0,9.4,3.2459
+2018-01-01,ss_fin,Financial activities,297.2,9.7,3.3739
+2018-02-01,ss_fin,Financial activities,298.5,9.4,3.2515
+2018-03-01,ss_fin,Financial activities,298.5,8.3,2.8601
+2018-04-01,ss_fin,Financial activities,297.9,5.6,1.9158
+2018-05-01,ss_fin,Financial activities,299.5,6.1,2.0791
+2018-06-01,ss_fin,Financial activities,302.4,6.7,2.2658
+2018-07-01,ss_fin,Financial activities,303.3,6.6,2.2245
+2018-08-01,ss_fin,Financial activities,304.7,7.6,2.5581
+2018-09-01,ss_fin,Financial activities,304.8,5.6,1.8717
+2018-10-01,ss_fin,Financial activities,307.3,8.0,2.6729
+2018-11-01,ss_fin,Financial activities,308.6,10.1,3.3836
+2018-12-01,ss_fin,Financial activities,310.1,11.1,3.7124
+2019-01-01,ss_fin,Financial activities,309.3,12.1,4.0713
+2019-02-01,ss_fin,Financial activities,311.9,13.4,4.4891
+2019-03-01,ss_fin,Financial activities,313.2,14.7,4.9246
+2019-04-01,ss_fin,Financial activities,313.9,16.0,5.3709
+2019-05-01,ss_fin,Financial activities,315.2,15.7,5.2421
+2019-06-01,ss_fin,Financial activities,318.8,16.4,5.4233
+2019-07-01,ss_fin,Financial activities,320.4,17.1,5.638
+2019-08-01,ss_fin,Financial activities,322.2,17.5,5.7434
+2019-09-01,ss_fin,Financial activities,321.5,16.7,5.479
+2019-10-01,ss_fin,Financial activities,322.3,15.0,4.8812
+2019-11-01,ss_fin,Financial activities,323.5,14.9,4.8283
+2019-12-01,ss_fin,Financial activities,324.3,14.2,4.5792
+2020-01-01,ss_fin,Financial activities,323.3,14.0,4.5263
+2020-02-01,ss_fin,Financial activities,325.0,13.1,4.2001
+2020-03-01,ss_fin,Financial activities,325.0,11.8,3.7676
+2020-04-01,ss_fin,Financial activities,317.8,3.9,1.2424
+2020-05-01,ss_fin,Financial activities,319.0,3.8,1.2056
+2020-06-01,ss_fin,Financial activities,321.3,2.5,0.7842
+2020-07-01,ss_fin,Financial activities,321.1,0.7,0.2185
+2020-08-01,ss_fin,Financial activities,323.2,1.0,0.3104
+2020-09-01,ss_fin,Financial activities,323.6,2.1,0.6532
+2020-10-01,ss_fin,Financial activities,327.4,5.1,1.5824
+2020-11-01,ss_fin,Financial activities,328.9,5.4,1.6692
+2020-12-01,ss_fin,Financial activities,329.8,5.5,1.696
+2021-01-01,ss_fin,Financial activities,328.6,5.3,1.6393
+2021-02-01,ss_fin,Financial activities,329.8,4.8,1.4769
+2021-03-01,ss_fin,Financial activities,333.0,8.0,2.4615
+2021-04-01,ss_fin,Financial activities,333.9,16.1,5.0661
+2021-05-01,ss_fin,Financial activities,334.5,15.5,4.8589
+2021-06-01,ss_fin,Financial activities,337.2,15.9,4.9486
+2021-07-01,ss_fin,Financial activities,342.1,21.0,6.54
+2021-08-01,ss_fin,Financial activities,343.4,20.2,6.25
+2021-09-01,ss_fin,Financial activities,343.1,19.5,6.026
+2021-10-01,ss_fin,Financial activities,348.7,21.3,6.5058
+2021-11-01,ss_fin,Financial activities,350.3,21.4,6.5065
+2021-12-01,ss_fin,Financial activities,350.8,21.0,6.3675
+2022-01-01,ss_fin,Financial activities,349.3,20.7,6.2995
+2022-02-01,ss_fin,Financial activities,350.7,20.9,6.3372
+2022-03-01,ss_fin,Financial activities,350.7,17.7,5.3153
+2022-04-01,ss_fin,Financial activities,353.4,19.5,5.8401
+2022-05-01,ss_fin,Financial activities,354.1,19.6,5.8595
+2022-06-01,ss_fin,Financial activities,356.7,19.5,5.7829
+2022-07-01,ss_fin,Financial activities,361.8,19.7,5.7586
+2022-08-01,ss_fin,Financial activities,363.6,20.2,5.8824
+2022-09-01,ss_fin,Financial activities,364.2,21.1,6.1498
+2022-10-01,ss_fin,Financial activities,367.3,18.6,5.3341
+2022-11-01,ss_fin,Financial activities,366.8,16.5,4.7102
+2022-12-01,ss_fin,Financial activities,365.7,14.9,4.2474
+2023-01-01,ss_fin,Financial activities,363.4,14.1,4.0366
+2023-02-01,ss_fin,Financial activities,365.1,14.4,4.1061
+2023-03-01,ss_fin,Financial activities,366.8,16.1,4.5908
+2023-04-01,ss_fin,Financial activities,368.4,15.0,4.2445
+2023-05-01,ss_fin,Financial activities,369.3,15.2,4.2926
+2023-06-01,ss_fin,Financial activities,373.4,16.7,4.6818
+2023-07-01,ss_fin,Financial activities,373.8,12.0,3.3167
+2023-08-01,ss_fin,Financial activities,373.9,10.3,2.8328
+2023-09-01,ss_fin,Financial activities,373.8,9.6,2.6359
+2023-10-01,ss_fin,Financial activities,374.0,6.7,1.8241
+2023-11-01,ss_fin,Financial activities,373.7,6.9,1.8811
+2023-12-01,ss_fin,Financial activities,375.1,9.4,2.5704
+2024-01-01,ss_fin,Financial activities,373.1,9.7,2.6692
+2024-02-01,ss_fin,Financial activities,374.8,9.7,2.6568
+2024-03-01,ss_fin,Financial activities,376.0,9.2,2.5082
+2024-04-01,ss_fin,Financial activities,376.7,8.3,2.253
+2024-05-01,ss_fin,Financial activities,378.0,8.7,2.3558
+2024-06-01,ss_fin,Financial activities,381.8,8.4,2.2496
+2024-07-01,ss_fin,Financial activities,384.1,10.3,2.7555
+2024-08-01,ss_fin,Financial activities,383.8,9.9,2.6478
+2024-09-01,ss_fin,Financial activities,383.8,10.0,2.6752
+2024-10-01,ss_fin,Financial activities,387.0,13.0,3.4759
+2024-11-01,ss_fin,Financial activities,388.3,14.6,3.9069
+2024-12-01,ss_fin,Financial activities,387.9,12.8,3.4124
+2025-01-01,ss_fin,Financial activities,386.3,13.2,3.5379
+2025-02-01,ss_fin,Financial activities,387.8,13.0,3.4685
+2025-03-01,ss_fin,Financial activities,388.2,12.2,3.2447
+2025-04-01,ss_fin,Financial activities,389.7,13.0,3.451
+2025-05-01,ss_fin,Financial activities,390.2,12.2,3.2275
+2025-06-01,ss_fin,Financial activities,392.0,10.2,2.6716
+2025-07-01,ss_fin,Financial activities,393.5,9.4,2.4473
+2025-08-01,ss_fin,Financial activities,393.9,10.1,2.6316
+2025-09-01,ss_fin,Financial activities,392.5,8.7,2.2668
+2025-10-01,ss_fin,Financial activities,392.2,5.2,1.3437
+2025-11-01,ss_fin,Financial activities,391.9,3.6,0.9271
+2025-12-01,ss_fin,Financial activities,393.5,5.6,1.4437
+2026-01-01,ss_fin,Financial activities,388.2,1.9,0.4918
+2026-02-01,ss_fin,Financial activities,388.0,0.2,0.0516
+2026-03-01,ss_fin,Financial activities,388.3,0.1,0.0258
+2026-04-01,ss_fin,Financial activities,387.7,-2.0,-0.5132
+2026-05-01,ss_fin,Financial activities,388.2,-2.0,-0.5126
+2026-06-01,ss_fin,Financial activities,391.8,-0.2,-0.051
+2026-07-01,ss_fin,Financial activities,389.7,-3.8,-0.9657
+2026-08-01,ss_fin,Financial activities,391.5,-2.4,-0.6093
+2026-09-01,ss_fin,Financial activities,391.7,-0.8,-0.2038
+2026-10-01,ss_fin,Financial activities,394.3,2.1,0.5354
+2016-01-01,ss_pbs,Professional & business services,562.9,,
+2016-02-01,ss_pbs,Professional & business services,567.5,,
+2016-03-01,ss_pbs,Professional & business services,566.3,,
+2016-04-01,ss_pbs,Professional & business services,573.2,,
+2016-05-01,ss_pbs,Professional & business services,574.1,,
+2016-06-01,ss_pbs,Professional & business services,576.4,,
+2016-07-01,ss_pbs,Professional & business services,581.7,,
+2016-08-01,ss_pbs,Professional & business services,586.2,,
+2016-09-01,ss_pbs,Professional & business services,587.5,,
+2016-10-01,ss_pbs,Professional & business services,589.8,,
+2016-11-01,ss_pbs,Professional & business services,593.4,,
+2016-12-01,ss_pbs,Professional & business services,588.3,,
+2017-01-01,ss_pbs,Professional & business services,580.4,17.5,3.1089
+2017-02-01,ss_pbs,Professional & business services,585.0,17.5,3.0837
+2017-03-01,ss_pbs,Professional & business services,583.7,17.4,3.0726
+2017-04-01,ss_pbs,Professional & business services,585.5,12.3,2.1458
+2017-05-01,ss_pbs,Professional & business services,587.9,13.8,2.4038
+2017-06-01,ss_pbs,Professional & business services,590.2,13.8,2.3942
+2017-07-01,ss_pbs,Professional & business services,591.0,9.3,1.5988
+2017-08-01,ss_pbs,Professional & business services,594.7,8.5,1.45
+2017-09-01,ss_pbs,Professional & business services,595.8,8.3,1.4128
+2017-10-01,ss_pbs,Professional & business services,603.4,13.6,2.3059
+2017-11-01,ss_pbs,Professional & business services,606.8,13.4,2.2582
+2017-12-01,ss_pbs,Professional & business services,599.2,10.9,1.8528
+2018-01-01,ss_pbs,Professional & business services,594.5,14.1,2.4294
+2018-02-01,ss_pbs,Professional & business services,600.3,15.3,2.6154
+2018-03-01,ss_pbs,Professional & business services,601.0,17.3,2.9639
+2018-04-01,ss_pbs,Professional & business services,606.1,20.6,3.5184
+2018-05-01,ss_pbs,Professional & business services,609.9,22.0,3.7421
+2018-06-01,ss_pbs,Professional & business services,614.2,24.0,4.0664
+2018-07-01,ss_pbs,Professional & business services,618.6,27.6,4.6701
+2018-08-01,ss_pbs,Professional & business services,623.6,28.9,4.8596
+2018-09-01,ss_pbs,Professional & business services,619.6,23.8,3.9946
+2018-10-01,ss_pbs,Professional & business services,628.7,25.3,4.1929
+2018-11-01,ss_pbs,Professional & business services,631.0,24.2,3.9881
+2018-12-01,ss_pbs,Professional & business services,627.1,27.9,4.6562
+2019-01-01,ss_pbs,Professional & business services,617.7,23.2,3.9024
+2019-02-01,ss_pbs,Professional & business services,622.8,22.5,3.7481
+2019-03-01,ss_pbs,Professional & business services,620.8,19.8,3.2945
+2019-04-01,ss_pbs,Professional & business services,629.2,23.1,3.8113
+2019-05-01,ss_pbs,Professional & business services,631.2,21.3,3.4924
+2019-06-01,ss_pbs,Professional & business services,633.8,19.6,3.1911
+2019-07-01,ss_pbs,Professional & business services,640.9,22.3,3.6049
+2019-08-01,ss_pbs,Professional & business services,646.9,23.3,3.7364
+2019-09-01,ss_pbs,Professional & business services,643.1,23.5,3.7928
+2019-10-01,ss_pbs,Professional & business services,653.8,25.1,3.9924
+2019-11-01,ss_pbs,Professional & business services,657.6,26.6,4.2155
+2019-12-01,ss_pbs,Professional & business services,651.4,24.3,3.875
+2020-01-01,ss_pbs,Professional & business services,645.4,27.7,4.4844
+2020-02-01,ss_pbs,Professional & business services,651.4,28.6,4.5922
+2020-03-01,ss_pbs,Professional & business services,645.7,24.9,4.011
+2020-04-01,ss_pbs,Professional & business services,594.0,-35.2,-5.5944
+2020-05-01,ss_pbs,Professional & business services,598.9,-32.3,-5.1172
+2020-06-01,ss_pbs,Professional & business services,602.3,-31.5,-4.97
+2020-07-01,ss_pbs,Professional & business services,614.1,-26.8,-4.1816
+2020-08-01,ss_pbs,Professional & business services,622.4,-24.5,-3.7873
+2020-09-01,ss_pbs,Professional & business services,617.7,-25.4,-3.9496
+2020-10-01,ss_pbs,Professional & business services,635.9,-17.9,-2.7378
+2020-11-01,ss_pbs,Professional & business services,641.5,-16.1,-2.4483
+2020-12-01,ss_pbs,Professional & business services,644.5,-6.9,-1.0593
+2021-01-01,ss_pbs,Professional & business services,643.2,-2.2,-0.3409
+2021-02-01,ss_pbs,Professional & business services,644.3,-7.1,-1.09
+2021-03-01,ss_pbs,Professional & business services,651.7,6.0,0.9292
+2021-04-01,ss_pbs,Professional & business services,662.7,68.7,11.5657
+2021-05-01,ss_pbs,Professional & business services,669.8,70.9,11.8384
+2021-06-01,ss_pbs,Professional & business services,673.7,71.4,11.8546
+2021-07-01,ss_pbs,Professional & business services,689.4,75.3,12.2618
+2021-08-01,ss_pbs,Professional & business services,695.6,73.2,11.7609
+2021-09-01,ss_pbs,Professional & business services,700.5,82.8,13.4046
+2021-10-01,ss_pbs,Professional & business services,725.6,89.7,14.106
+2021-11-01,ss_pbs,Professional & business services,730.3,88.8,13.8426
+2021-12-01,ss_pbs,Professional & business services,729.8,85.3,13.2351
+2022-01-01,ss_pbs,Professional & business services,726.0,82.8,12.8731
+2022-02-01,ss_pbs,Professional & business services,737.7,93.4,14.4964
+2022-03-01,ss_pbs,Professional & business services,738.6,86.9,13.3344
+2022-04-01,ss_pbs,Professional & business services,752.1,89.4,13.4903
+2022-05-01,ss_pbs,Professional & business services,756.4,86.6,12.9292
+2022-06-01,ss_pbs,Professional & business services,756.9,83.2,12.3497
+2022-07-01,ss_pbs,Professional & business services,772.7,83.3,12.083
+2022-08-01,ss_pbs,Professional & business services,777.6,82.0,11.7884
+2022-09-01,ss_pbs,Professional & business services,774.9,74.4,10.621
+2022-10-01,ss_pbs,Professional & business services,788.8,63.2,8.71
+2022-11-01,ss_pbs,Professional & business services,788.3,58.0,7.9419
+2022-12-01,ss_pbs,Professional & business services,779.2,49.4,6.769
+2023-01-01,ss_pbs,Professional & business services,773.1,47.1,6.4876
+2023-02-01,ss_pbs,Professional & business services,773.9,36.2,4.9071
+2023-03-01,ss_pbs,Professional & business services,770.2,31.6,4.2784
+2023-04-01,ss_pbs,Professional & business services,775.6,23.5,3.1246
+2023-05-01,ss_pbs,Professional & business services,772.7,16.3,2.1549
+2023-06-01,ss_pbs,Professional & business services,768.3,11.4,1.5061
+2023-07-01,ss_pbs,Professional & business services,775.3,2.6,0.3365
+2023-08-01,ss_pbs,Professional & business services,775.3,-2.3,-0.2958
+2023-09-01,ss_pbs,Professional & business services,769.5,-5.4,-0.6969
+2023-10-01,ss_pbs,Professional & business services,778.6,-10.2,-1.2931
+2023-11-01,ss_pbs,Professional & business services,779.4,-8.9,-1.129
+2023-12-01,ss_pbs,Professional & business services,767.6,-11.6,-1.4887
+2024-01-01,ss_pbs,Professional & business services,768.6,-4.5,-0.5821
+2024-02-01,ss_pbs,Professional & business services,770.1,-3.8,-0.491
+2024-03-01,ss_pbs,Professional & business services,762.5,-7.7,-0.9997
+2024-04-01,ss_pbs,Professional & business services,770.0,-5.6,-0.722
+2024-05-01,ss_pbs,Professional & business services,770.9,-1.8,-0.2329
+2024-06-01,ss_pbs,Professional & business services,768.7,0.4,0.0521
+2024-07-01,ss_pbs,Professional & business services,770.5,-4.8,-0.6191
+2024-08-01,ss_pbs,Professional & business services,777.2,1.9,0.2451
+2024-09-01,ss_pbs,Professional & business services,772.3,2.8,0.3639
+2024-10-01,ss_pbs,Professional & business services,784.0,5.4,0.6936
+2024-11-01,ss_pbs,Professional & business services,785.2,5.8,0.7442
+2024-12-01,ss_pbs,Professional & business services,777.0,9.4,1.2246
+2025-01-01,ss_pbs,Professional & business services,766.6,-2.0,-0.2602
+2025-02-01,ss_pbs,Professional & business services,767.8,-2.3,-0.2987
+2025-03-01,ss_pbs,Professional & business services,765.1,2.6,0.341
+2025-04-01,ss_pbs,Professional & business services,777.5,7.5,0.974
+2025-05-01,ss_pbs,Professional & business services,779.4,8.5,1.1026
+2025-06-01,ss_pbs,Professional & business services,775.6,6.9,0.8976
+2025-07-01,ss_pbs,Professional & business services,781.7,11.2,1.4536
+2025-08-01,ss_pbs,Professional & business services,785.9,8.7,1.1194
+2025-09-01,ss_pbs,Professional & business services,781.1,8.8,1.1395
+2025-10-01,ss_pbs,Professional & business services,785.2,1.2,0.1531
+2025-11-01,ss_pbs,Professional & business services,786.1,0.9,0.1146
+2025-12-01,ss_pbs,Professional & business services,785.9,8.9,1.1454
+2026-01-01,ss_pbs,Professional & business services,779.7,13.1,1.7088
+2026-02-01,ss_pbs,Professional & business services,783.6,15.8,2.0578
+2026-03-01,ss_pbs,Professional & business services,786.6,21.5,2.8101
+2026-04-01,ss_pbs,Professional & business services,793.8,16.3,2.0965
+2026-05-01,ss_pbs,Professional & business services,792.1,12.7,1.6295
+2026-06-01,ss_pbs,Professional & business services,800.9,25.3,3.262
+2026-07-01,ss_pbs,Professional & business services,805.0,23.3,2.9807
+2026-08-01,ss_pbs,Professional & business services,810.6,24.7,3.1429
+2026-09-01,ss_pbs,Professional & business services,810.4,29.3,3.7511
+2026-10-01,ss_pbs,Professional & business services,829.8,44.6,5.6801
+2016-01-01,ss_edh,Private education & health services,418.0,,
+2016-02-01,ss_edh,Private education & health services,422.0,,
+2016-03-01,ss_edh,Private education & health services,422.9,,
+2016-04-01,ss_edh,Private education & health services,424.0,,
+2016-05-01,ss_edh,Private education & health services,426.1,,
+2016-06-01,ss_edh,Private education & health services,423.2,,
+2016-07-01,ss_edh,Private education & health services,423.4,,
+2016-08-01,ss_edh,Private education & health services,427.3,,
+2016-09-01,ss_edh,Private education & health services,430.2,,
+2016-10-01,ss_edh,Private education & health services,431.5,,
+2016-11-01,ss_edh,Private education & health services,432.8,,
+2016-12-01,ss_edh,Private education & health services,433.7,,
+2017-01-01,ss_edh,Private education & health services,431.5,13.5,3.2297
+2017-02-01,ss_edh,Private education & health services,436.1,14.1,3.3412
+2017-03-01,ss_edh,Private education & health services,437.4,14.5,3.4287
+2017-04-01,ss_edh,Private education & health services,438.7,14.7,3.467
+2017-05-01,ss_edh,Private education & health services,439.7,13.6,3.1917
+2017-06-01,ss_edh,Private education & health services,439.5,16.3,3.8516
+2017-07-01,ss_edh,Private education & health services,435.3,11.9,2.8106
+2017-08-01,ss_edh,Private education & health services,439.4,12.1,2.8317
+2017-09-01,ss_edh,Private education & health services,441.6,11.4,2.6499
+2017-10-01,ss_edh,Private education & health services,443.1,11.6,2.6883
+2017-11-01,ss_edh,Private education & health services,444.5,11.7,2.7033
+2017-12-01,ss_edh,Private education & health services,445.8,12.1,2.7899
+2018-01-01,ss_edh,Private education & health services,440.7,9.2,2.1321
+2018-02-01,ss_edh,Private education & health services,444.5,8.4,1.9262
+2018-03-01,ss_edh,Private education & health services,445.1,7.7,1.7604
+2018-04-01,ss_edh,Private education & health services,445.4,6.7,1.5272
+2018-05-01,ss_edh,Private education & health services,447.0,7.3,1.6602
+2018-06-01,ss_edh,Private education & health services,446.7,7.2,1.6382
+2018-07-01,ss_edh,Private education & health services,445.9,10.6,2.4351
+2018-08-01,ss_edh,Private education & health services,450.1,10.7,2.4351
+2018-09-01,ss_edh,Private education & health services,451.3,9.7,2.1966
+2018-10-01,ss_edh,Private education & health services,453.6,10.5,2.3697
+2018-11-01,ss_edh,Private education & health services,454.7,10.2,2.2947
+2018-12-01,ss_edh,Private education & health services,456.6,10.8,2.4226
+2019-01-01,ss_edh,Private education & health services,450.6,9.9,2.2464
+2019-02-01,ss_edh,Private education & health services,455.5,11.0,2.4747
+2019-03-01,ss_edh,Private education & health services,456.1,11.0,2.4714
+2019-04-01,ss_edh,Private education & health services,457.5,12.1,2.7167
+2019-05-01,ss_edh,Private education & health services,459.8,12.8,2.8635
+2019-06-01,ss_edh,Private education & health services,457.5,10.8,2.4177
+2019-07-01,ss_edh,Private education & health services,456.5,10.6,2.3772
+2019-08-01,ss_edh,Private education & health services,461.4,11.3,2.5106
+2019-09-01,ss_edh,Private education & health services,462.2,10.9,2.4152
+2019-10-01,ss_edh,Private education & health services,465.4,11.8,2.6014
+2019-11-01,ss_edh,Private education & health services,466.9,12.2,2.6831
+2019-12-01,ss_edh,Private education & health services,466.9,10.3,2.2558
+2020-01-01,ss_edh,Private education & health services,463.2,12.6,2.7963
+2020-02-01,ss_edh,Private education & health services,467.4,11.9,2.6125
+2020-03-01,ss_edh,Private education & health services,465.7,9.6,2.1048
+2020-04-01,ss_edh,Private education & health services,410.7,-46.8,-10.2295
+2020-05-01,ss_edh,Private education & health services,427.1,-32.7,-7.1118
+2020-06-01,ss_edh,Private education & health services,433.5,-24.0,-5.2459
+2020-07-01,ss_edh,Private education & health services,434.6,-21.9,-4.7974
+2020-08-01,ss_edh,Private education & health services,439.0,-22.4,-4.8548
+2020-09-01,ss_edh,Private education & health services,441.4,-20.8,-4.5002
+2020-10-01,ss_edh,Private education & health services,449.2,-16.2,-3.4809
+2020-11-01,ss_edh,Private education & health services,451.1,-15.8,-3.384
+2020-12-01,ss_edh,Private education & health services,452.8,-14.1,-3.0199
+2021-01-01,ss_edh,Private education & health services,448.2,-15.0,-3.2383
+2021-02-01,ss_edh,Private education & health services,448.6,-18.8,-4.0223
+2021-03-01,ss_edh,Private education & health services,451.1,-14.6,-3.1351
+2021-04-01,ss_edh,Private education & health services,454.2,43.5,10.5917
+2021-05-01,ss_edh,Private education & health services,454.5,27.4,6.4154
+2021-06-01,ss_edh,Private education & health services,452.4,18.9,4.3599
+2021-07-01,ss_edh,Private education & health services,454.5,19.9,4.5789
+2021-08-01,ss_edh,Private education & health services,457.4,18.4,4.1913
+2021-09-01,ss_edh,Private education & health services,456.2,14.8,3.353
+2021-10-01,ss_edh,Private education & health services,463.0,13.8,3.0721
+2021-11-01,ss_edh,Private education & health services,463.9,12.8,2.8375
+2021-12-01,ss_edh,Private education & health services,464.6,11.8,2.606
+2022-01-01,ss_edh,Private education & health services,457.6,9.4,2.0973
+2022-02-01,ss_edh,Private education & health services,461.4,12.8,2.8533
+2022-03-01,ss_edh,Private education & health services,462.0,10.9,2.4163
+2022-04-01,ss_edh,Private education & health services,469.9,15.7,3.4566
+2022-05-01,ss_edh,Private education & health services,471.9,17.4,3.8284
+2022-06-01,ss_edh,Private education & health services,468.0,15.6,3.4483
+2022-07-01,ss_edh,Private education & health services,472.6,18.1,3.9824
+2022-08-01,ss_edh,Private education & health services,477.9,20.5,4.4819
+2022-09-01,ss_edh,Private education & health services,480.7,24.5,5.3705
+2022-10-01,ss_edh,Private education & health services,485.9,22.9,4.946
+2022-11-01,ss_edh,Private education & health services,489.2,25.3,5.4538
+2022-12-01,ss_edh,Private education & health services,487.5,22.9,4.929
+2023-01-01,ss_edh,Private education & health services,486.2,28.6,6.25
+2023-02-01,ss_edh,Private education & health services,491.2,29.8,6.4586
+2023-03-01,ss_edh,Private education & health services,493.1,31.1,6.7316
+2023-04-01,ss_edh,Private education & health services,498.2,28.3,6.0226
+2023-05-01,ss_edh,Private education & health services,501.4,29.5,6.2513
+2023-06-01,ss_edh,Private education & health services,499.0,31.0,6.6239
+2023-07-01,ss_edh,Private education & health services,498.0,25.4,5.3745
+2023-08-01,ss_edh,Private education & health services,502.8,24.9,5.2103
+2023-09-01,ss_edh,Private education & health services,504.4,23.7,4.9303
+2023-10-01,ss_edh,Private education & health services,508.1,22.2,4.5688
+2023-11-01,ss_edh,Private education & health services,509.7,20.5,4.1905
+2023-12-01,ss_edh,Private education & health services,508.9,21.4,4.3897
+2024-01-01,ss_edh,Private education & health services,502.8,16.6,3.4142
+2024-02-01,ss_edh,Private education & health services,507.9,16.7,3.3998
+2024-03-01,ss_edh,Private education & health services,506.5,13.4,2.7175
+2024-04-01,ss_edh,Private education & health services,511.6,13.4,2.6897
+2024-05-01,ss_edh,Private education & health services,513.2,11.8,2.3534
+2024-06-01,ss_edh,Private education & health services,508.2,9.2,1.8437
+2024-07-01,ss_edh,Private education & health services,507.6,9.6,1.9277
+2024-08-01,ss_edh,Private education & health services,513.5,10.7,2.1281
+2024-09-01,ss_edh,Private education & health services,515.6,11.2,2.2205
+2024-10-01,ss_edh,Private education & health services,520.3,12.2,2.4011
+2024-11-01,ss_edh,Private education & health services,522.9,13.2,2.5898
+2024-12-01,ss_edh,Private education & health services,521.8,12.9,2.5349
+2025-01-01,ss_edh,Private education & health services,516.3,13.5,2.685
+2025-02-01,ss_edh,Private education & health services,521.5,13.6,2.6777
+2025-03-01,ss_edh,Private education & health services,520.6,14.1,2.7838
+2025-04-01,ss_edh,Private education & health services,526.5,14.9,2.9124
+2025-05-01,ss_edh,Private education & health services,527.9,14.7,2.8644
+2025-06-01,ss_edh,Private education & health services,519.7,11.5,2.2629
+2025-07-01,ss_edh,Private education & health services,520.1,12.5,2.4626
+2025-08-01,ss_edh,Private education & health services,525.4,11.9,2.3174
+2025-09-01,ss_edh,Private education & health services,526.9,11.3,2.1916
+2025-10-01,ss_edh,Private education & health services,526.6,6.3,1.2108
+2025-11-01,ss_edh,Private education & health services,529.5,6.6,1.2622
+2025-12-01,ss_edh,Private education & health services,527.1,5.3,1.0157
+2026-01-01,ss_edh,Private education & health services,522.8,6.5,1.259
+2026-02-01,ss_edh,Private education & health services,523.8,2.3,0.441
+2026-03-01,ss_edh,Private education & health services,526.4,5.8,1.1141
+2026-04-01,ss_edh,Private education & health services,528.7,2.2,0.4179
+2026-05-01,ss_edh,Private education & health services,528.4,0.5,0.0947
+2026-06-01,ss_edh,Private education & health services,528.9,9.2,1.7703
+2026-07-01,ss_edh,Private education & health services,529.6,9.5,1.8266
+2026-08-01,ss_edh,Private education & health services,529.7,4.3,0.8184
+2026-09-01,ss_edh,Private education & health services,527.0,0.1,0.019
+2026-10-01,ss_edh,Private education & health services,529.2,2.6,0.4937
+2016-01-01,ss_lh,Leisure & hospitality,342.9,,
+2016-02-01,ss_lh,Leisure & hospitality,349.1,,
+2016-03-01,ss_lh,Leisure & hospitality,355.0,,
+2016-04-01,ss_lh,Leisure & hospitality,362.5,,
+2016-05-01,ss_lh,Leisure & hospitality,367.9,,
+2016-06-01,ss_lh,Leisure & hospitality,371.9,,
+2016-07-01,ss_lh,Leisure & hospitality,367.6,,
+2016-08-01,ss_lh,Leisure & hospitality,367.5,,
+2016-09-01,ss_lh,Leisure & hospitality,365.8,,
+2016-10-01,ss_lh,Leisure & hospitality,364.8,,
+2016-11-01,ss_lh,Leisure & hospitality,362.2,,
+2016-12-01,ss_lh,Leisure & hospitality,361.5,,
+2017-01-01,ss_lh,Leisure & hospitality,354.9,12.0,3.4996
+2017-02-01,ss_lh,Leisure & hospitality,358.8,9.7,2.7786
+2017-03-01,ss_lh,Leisure & hospitality,364.2,9.2,2.5915
+2017-04-01,ss_lh,Leisure & hospitality,370.0,7.5,2.069
+2017-05-01,ss_lh,Leisure & hospitality,375.7,7.8,2.1201
+2017-06-01,ss_lh,Leisure & hospitality,381.4,9.5,2.5545
+2017-07-01,ss_lh,Leisure & hospitality,378.2,10.6,2.8836
+2017-08-01,ss_lh,Leisure & hospitality,378.2,10.7,2.9116
+2017-09-01,ss_lh,Leisure & hospitality,373.2,7.4,2.023
+2017-10-01,ss_lh,Leisure & hospitality,372.5,7.7,2.1107
+2017-11-01,ss_lh,Leisure & hospitality,371.5,9.3,2.5676
+2017-12-01,ss_lh,Leisure & hospitality,373.0,11.5,3.1812
+2018-01-01,ss_lh,Leisure & hospitality,365.9,11.0,3.0995
+2018-02-01,ss_lh,Leisure & hospitality,370.9,12.1,3.3724
+2018-03-01,ss_lh,Leisure & hospitality,376.1,11.9,3.2674
+2018-04-01,ss_lh,Leisure & hospitality,379.9,9.9,2.6757
+2018-05-01,ss_lh,Leisure & hospitality,385.7,10.0,2.6617
+2018-06-01,ss_lh,Leisure & hospitality,393.3,11.9,3.1201
+2018-07-01,ss_lh,Leisure & hospitality,388.7,10.5,2.7763
+2018-08-01,ss_lh,Leisure & hospitality,390.3,12.1,3.1994
+2018-09-01,ss_lh,Leisure & hospitality,384.4,11.2,3.0011
+2018-10-01,ss_lh,Leisure & hospitality,385.7,13.2,3.5436
+2018-11-01,ss_lh,Leisure & hospitality,381.6,10.1,2.7187
+2018-12-01,ss_lh,Leisure & hospitality,384.4,11.4,3.0563
+2019-01-01,ss_lh,Leisure & hospitality,376.1,10.2,2.7876
+2019-02-01,ss_lh,Leisure & hospitality,381.6,10.7,2.8849
+2019-03-01,ss_lh,Leisure & hospitality,386.8,10.7,2.845
+2019-04-01,ss_lh,Leisure & hospitality,389.1,9.2,2.4217
+2019-05-01,ss_lh,Leisure & hospitality,396.2,10.5,2.7223
+2019-06-01,ss_lh,Leisure & hospitality,402.5,9.2,2.3392
+2019-07-01,ss_lh,Leisure & hospitality,402.0,13.3,3.4217
+2019-08-01,ss_lh,Leisure & hospitality,401.9,11.6,2.9721
+2019-09-01,ss_lh,Leisure & hospitality,397.5,13.1,3.4079
+2019-10-01,ss_lh,Leisure & hospitality,399.8,14.1,3.6557
+2019-11-01,ss_lh,Leisure & hospitality,396.8,15.2,3.9832
+2019-12-01,ss_lh,Leisure & hospitality,398.2,13.8,3.59
+2020-01-01,ss_lh,Leisure & hospitality,389.7,13.6,3.6161
+2020-02-01,ss_lh,Leisure & hospitality,393.4,11.8,3.0922
+2020-03-01,ss_lh,Leisure & hospitality,386.5,-0.3,-0.0776
+2020-04-01,ss_lh,Leisure & hospitality,232.9,-156.2,-40.1439
+2020-05-01,ss_lh,Leisure & hospitality,276.4,-119.8,-30.2373
+2020-06-01,ss_lh,Leisure & hospitality,314.2,-88.3,-21.9379
+2020-07-01,ss_lh,Leisure & hospitality,313.0,-89.0,-22.1393
+2020-08-01,ss_lh,Leisure & hospitality,317.8,-84.1,-20.9256
+2020-09-01,ss_lh,Leisure & hospitality,320.7,-76.8,-19.3208
+2020-10-01,ss_lh,Leisure & hospitality,331.1,-68.7,-17.1836
+2020-11-01,ss_lh,Leisure & hospitality,331.6,-65.2,-16.4315
+2020-12-01,ss_lh,Leisure & hospitality,334.2,-64.0,-16.0723
+2021-01-01,ss_lh,Leisure & hospitality,326.3,-63.4,-16.2689
+2021-02-01,ss_lh,Leisure & hospitality,325.1,-68.3,-17.3615
+2021-03-01,ss_lh,Leisure & hospitality,338.5,-48.0,-12.4191
+2021-04-01,ss_lh,Leisure & hospitality,349.1,116.2,49.8927
+2021-05-01,ss_lh,Leisure & hospitality,358.5,82.1,29.7033
+2021-06-01,ss_lh,Leisure & hospitality,370.7,56.5,17.9822
+2021-07-01,ss_lh,Leisure & hospitality,376.5,63.5,20.2875
+2021-08-01,ss_lh,Leisure & hospitality,374.9,57.1,17.9673
+2021-09-01,ss_lh,Leisure & hospitality,369.2,48.5,15.1232
+2021-10-01,ss_lh,Leisure & hospitality,375.6,44.5,13.44
+2021-11-01,ss_lh,Leisure & hospitality,374.1,42.5,12.8166
+2021-12-01,ss_lh,Leisure & hospitality,377.8,43.6,13.0461
+2022-01-01,ss_lh,Leisure & hospitality,369.5,43.2,13.2394
+2022-02-01,ss_lh,Leisure & hospitality,374.6,49.5,15.2261
+2022-03-01,ss_lh,Leisure & hospitality,380.0,41.5,12.26
+2022-04-01,ss_lh,Leisure & hospitality,389.5,40.4,11.5726
+2022-05-01,ss_lh,Leisure & hospitality,396.1,37.6,10.4881
+2022-06-01,ss_lh,Leisure & hospitality,404.0,33.3,8.983
+2022-07-01,ss_lh,Leisure & hospitality,407.8,31.3,8.3134
+2022-08-01,ss_lh,Leisure & hospitality,407.2,32.3,8.6156
+2022-09-01,ss_lh,Leisure & hospitality,402.5,33.3,9.0195
+2022-10-01,ss_lh,Leisure & hospitality,403.9,28.3,7.5346
+2022-11-01,ss_lh,Leisure & hospitality,401.7,27.6,7.3777
+2022-12-01,ss_lh,Leisure & hospitality,401.8,24.0,6.3526
+2023-01-01,ss_lh,Leisure & hospitality,402.0,32.5,8.7957
+2023-02-01,ss_lh,Leisure & hospitality,405.3,30.7,8.1954
+2023-03-01,ss_lh,Leisure & hospitality,412.8,32.8,8.6316
+2023-04-01,ss_lh,Leisure & hospitality,416.3,26.8,6.8806
+2023-05-01,ss_lh,Leisure & hospitality,424.2,28.1,7.0942
+2023-06-01,ss_lh,Leisure & hospitality,433.7,29.7,7.3515
+2023-07-01,ss_lh,Leisure & hospitality,430.0,22.2,5.4438
+2023-08-01,ss_lh,Leisure & hospitality,428.8,21.6,5.3045
+2023-09-01,ss_lh,Leisure & hospitality,423.2,20.7,5.1429
+2023-10-01,ss_lh,Leisure & hospitality,422.2,18.3,4.5308
+2023-11-01,ss_lh,Leisure & hospitality,420.7,19.0,4.7299
+2023-12-01,ss_lh,Leisure & hospitality,421.7,19.9,4.9527
+2024-01-01,ss_lh,Leisure & hospitality,412.7,10.7,2.6617
+2024-02-01,ss_lh,Leisure & hospitality,415.6,10.3,2.5413
+2024-03-01,ss_lh,Leisure & hospitality,422.4,9.6,2.3256
+2024-04-01,ss_lh,Leisure & hospitality,428.3,12.0,2.8825
+2024-05-01,ss_lh,Leisure & hospitality,434.7,10.5,2.4752
+2024-06-01,ss_lh,Leisure & hospitality,440.1,6.4,1.4757
+2024-07-01,ss_lh,Leisure & hospitality,435.0,5.0,1.1628
+2024-08-01,ss_lh,Leisure & hospitality,433.9,5.1,1.1894
+2024-09-01,ss_lh,Leisure & hospitality,427.9,4.7,1.1106
+2024-10-01,ss_lh,Leisure & hospitality,429.8,7.6,1.8001
+2024-11-01,ss_lh,Leisure & hospitality,427.9,7.2,1.7114
+2024-12-01,ss_lh,Leisure & hospitality,428.7,7.0,1.6599
+2025-01-01,ss_lh,Leisure & hospitality,417.8,5.1,1.2358
+2025-02-01,ss_lh,Leisure & hospitality,420.2,4.6,1.1068
+2025-03-01,ss_lh,Leisure & hospitality,427.1,4.7,1.1127
+2025-04-01,ss_lh,Leisure & hospitality,434.5,6.2,1.4476
+2025-05-01,ss_lh,Leisure & hospitality,441.0,6.3,1.4493
+2025-06-01,ss_lh,Leisure & hospitality,440.8,0.7,0.1591
+2025-07-01,ss_lh,Leisure & hospitality,436.4,1.4,0.3218
+2025-08-01,ss_lh,Leisure & hospitality,433.8,-0.1,-0.023
+2025-09-01,ss_lh,Leisure & hospitality,428.5,0.6,0.1402
+2025-10-01,ss_lh,Leisure & hospitality,431.2,1.4,0.3257
+2025-11-01,ss_lh,Leisure & hospitality,428.6,0.7,0.1636
+2025-12-01,ss_lh,Leisure & hospitality,427.1,-1.6,-0.3732
+2026-01-01,ss_lh,Leisure & hospitality,424.0,6.2,1.484
+2026-02-01,ss_lh,Leisure & hospitality,425.2,5.0,1.1899
+2026-03-01,ss_lh,Leisure & hospitality,431.4,4.3,1.0068
+2026-04-01,ss_lh,Leisure & hospitality,435.5,1.0,0.2301
+2026-05-01,ss_lh,Leisure & hospitality,443.7,2.7,0.6122
+2026-06-01,ss_lh,Leisure & hospitality,450.9,10.1,2.2913
+2026-07-01,ss_lh,Leisure & hospitality,447.9,11.5,2.6352
+2026-08-01,ss_lh,Leisure & hospitality,442.0,8.2,1.8903
+2026-09-01,ss_lh,Leisure & hospitality,433.5,5.0,1.1669
+2026-10-01,ss_lh,Leisure & hospitality,431.8,0.6,0.1391
+2016-01-01,ss_oth,Other services,115.9,,
+2016-02-01,ss_oth,Other services,117.2,,
+2016-03-01,ss_oth,Other services,117.7,,
+2016-04-01,ss_oth,Other services,118.8,,
+2016-05-01,ss_oth,Other services,120.6,,
+2016-06-01,ss_oth,Other services,123.9,,
+2016-07-01,ss_oth,Other services,122.6,,
+2016-08-01,ss_oth,Other services,121.3,,
+2016-09-01,ss_oth,Other services,119.7,,
+2016-10-01,ss_oth,Other services,119.3,,
+2016-11-01,ss_oth,Other services,119.8,,
+2016-12-01,ss_oth,Other services,119.6,,
+2017-01-01,ss_oth,Other services,116.9,1.0,0.8628
+2017-02-01,ss_oth,Other services,118.1,0.9,0.7679
+2017-03-01,ss_oth,Other services,119.4,1.7,1.4444
+2017-04-01,ss_oth,Other services,120.2,1.4,1.1785
+2017-05-01,ss_oth,Other services,120.8,0.2,0.1658
+2017-06-01,ss_oth,Other services,125.0,1.1,0.8878
+2017-07-01,ss_oth,Other services,122.9,0.3,0.2447
+2017-08-01,ss_oth,Other services,122.2,0.9,0.742
+2017-09-01,ss_oth,Other services,121.0,1.3,1.086
+2017-10-01,ss_oth,Other services,121.1,1.8,1.5088
+2017-11-01,ss_oth,Other services,121.0,1.2,1.0017
+2017-12-01,ss_oth,Other services,120.7,1.1,0.9197
+2018-01-01,ss_oth,Other services,118.2,1.3,1.1121
+2018-02-01,ss_oth,Other services,119.2,1.1,0.9314
+2018-03-01,ss_oth,Other services,120.4,1.0,0.8375
+2018-04-01,ss_oth,Other services,122.1,1.9,1.5807
+2018-05-01,ss_oth,Other services,123.0,2.2,1.8212
+2018-06-01,ss_oth,Other services,127.2,2.2,1.76
+2018-07-01,ss_oth,Other services,125.8,2.9,2.3596
+2018-08-01,ss_oth,Other services,125.1,2.9,2.3732
+2018-09-01,ss_oth,Other services,124.0,3.0,2.4793
+2018-10-01,ss_oth,Other services,124.7,3.6,2.9727
+2018-11-01,ss_oth,Other services,124.5,3.5,2.8926
+2018-12-01,ss_oth,Other services,123.6,2.9,2.4027
+2019-01-01,ss_oth,Other services,121.9,3.7,3.1303
+2019-02-01,ss_oth,Other services,123.6,4.4,3.6913
+2019-03-01,ss_oth,Other services,124.9,4.5,3.7375
+2019-04-01,ss_oth,Other services,126.5,4.4,3.6036
+2019-05-01,ss_oth,Other services,128.6,5.6,4.5528
+2019-06-01,ss_oth,Other services,131.1,3.9,3.066
+2019-07-01,ss_oth,Other services,130.0,4.2,3.3386
+2019-08-01,ss_oth,Other services,129.2,4.1,3.2774
+2019-09-01,ss_oth,Other services,128.0,4.0,3.2258
+2019-10-01,ss_oth,Other services,128.8,4.1,3.2879
+2019-11-01,ss_oth,Other services,129.1,4.6,3.6948
+2019-12-01,ss_oth,Other services,128.6,5.0,4.0453
+2020-01-01,ss_oth,Other services,125.5,3.6,2.9532
+2020-02-01,ss_oth,Other services,127.6,4.0,3.2362
+2020-03-01,ss_oth,Other services,125.2,0.3,0.2402
+2020-04-01,ss_oth,Other services,93.2,-33.3,-26.3241
+2020-05-01,ss_oth,Other services,99.4,-29.2,-22.7061
+2020-06-01,ss_oth,Other services,109.1,-22.0,-16.7811
+2020-07-01,ss_oth,Other services,109.5,-20.5,-15.7692
+2020-08-01,ss_oth,Other services,110.5,-18.7,-14.4737
+2020-09-01,ss_oth,Other services,110.7,-17.3,-13.5156
+2020-10-01,ss_oth,Other services,113.6,-15.2,-11.8012
+2020-11-01,ss_oth,Other services,113.4,-15.7,-12.1611
+2020-12-01,ss_oth,Other services,113.0,-15.6,-12.1306
+2021-01-01,ss_oth,Other services,112.2,-13.3,-10.5976
+2021-02-01,ss_oth,Other services,111.8,-15.8,-12.3824
+2021-03-01,ss_oth,Other services,115.0,-10.2,-8.147
+2021-04-01,ss_oth,Other services,117.1,23.9,25.6438
+2021-05-01,ss_oth,Other services,118.0,18.6,18.7123
+2021-06-01,ss_oth,Other services,120.6,11.5,10.5408
+2021-07-01,ss_oth,Other services,122.4,12.9,11.7808
+2021-08-01,ss_oth,Other services,122.1,11.6,10.4977
+2021-09-01,ss_oth,Other services,121.5,10.8,9.7561
+2021-10-01,ss_oth,Other services,122.7,9.1,8.0106
+2021-11-01,ss_oth,Other services,122.7,9.3,8.2011
+2021-12-01,ss_oth,Other services,123.0,10.0,8.8496
+2022-01-01,ss_oth,Other services,120.5,8.3,7.3975
+2022-02-01,ss_oth,Other services,122.6,10.8,9.6601
+2022-03-01,ss_oth,Other services,123.5,8.5,7.3913
+2022-04-01,ss_oth,Other services,125.2,8.1,6.9172
+2022-05-01,ss_oth,Other services,126.9,8.9,7.5424
+2022-06-01,ss_oth,Other services,128.9,8.3,6.8823
+2022-07-01,ss_oth,Other services,131.0,8.6,7.0261
+2022-08-01,ss_oth,Other services,130.4,8.3,6.7977
+2022-09-01,ss_oth,Other services,129.9,8.4,6.9136
+2022-10-01,ss_oth,Other services,130.6,7.9,6.4385
+2022-11-01,ss_oth,Other services,131.7,9.0,7.335
+2022-12-01,ss_oth,Other services,130.6,7.6,6.1789
+2023-01-01,ss_oth,Other services,129.9,9.4,7.8008
+2023-02-01,ss_oth,Other services,130.7,8.1,6.6069
+2023-03-01,ss_oth,Other services,132.0,8.5,6.8826
+2023-04-01,ss_oth,Other services,133.0,7.8,6.23
+2023-05-01,ss_oth,Other services,134.5,7.6,5.989
+2023-06-01,ss_oth,Other services,137.4,8.5,6.5943
+2023-07-01,ss_oth,Other services,136.6,5.6,4.2748
+2023-08-01,ss_oth,Other services,136.5,6.1,4.6779
+2023-09-01,ss_oth,Other services,135.6,5.7,4.388
+2023-10-01,ss_oth,Other services,136.1,5.5,4.2113
+2023-11-01,ss_oth,Other services,136.1,4.4,3.3409
+2023-12-01,ss_oth,Other services,135.9,5.3,4.0582
+2024-01-01,ss_oth,Other services,136.2,6.3,4.8499
+2024-02-01,ss_oth,Other services,137.3,6.6,5.0497
+2024-03-01,ss_oth,Other services,138.4,6.4,4.8485
+2024-04-01,ss_oth,Other services,139.3,6.3,4.7368
+2024-05-01,ss_oth,Other services,141.0,6.5,4.8327
+2024-06-01,ss_oth,Other services,144.0,6.6,4.8035
+2024-07-01,ss_oth,Other services,143.1,6.5,4.7584
+2024-08-01,ss_oth,Other services,142.2,5.7,4.1758
+2024-09-01,ss_oth,Other services,142.0,6.4,4.7198
+2024-10-01,ss_oth,Other services,141.9,5.8,4.2616
+2024-11-01,ss_oth,Other services,141.9,5.8,4.2616
+2024-12-01,ss_oth,Other services,141.7,5.8,4.2678
+2025-01-01,ss_oth,Other services,140.2,4.0,2.9369
+2025-02-01,ss_oth,Other services,140.5,3.2,2.3307
+2025-03-01,ss_oth,Other services,141.1,2.7,1.9509
+2025-04-01,ss_oth,Other services,142.4,3.1,2.2254
+2025-05-01,ss_oth,Other services,143.7,2.7,1.9149
+2025-06-01,ss_oth,Other services,144.3,0.3,0.2083
+2025-07-01,ss_oth,Other services,143.8,0.7,0.4892
+2025-08-01,ss_oth,Other services,142.5,0.3,0.211
+2025-09-01,ss_oth,Other services,141.6,-0.4,-0.2817
+2025-10-01,ss_oth,Other services,142.6,0.7,0.4933
+2025-11-01,ss_oth,Other services,143.0,1.1,0.7752
+2025-12-01,ss_oth,Other services,142.7,1.0,0.7057
+2026-01-01,ss_oth,Other services,141.5,1.3,0.9272
+2026-02-01,ss_oth,Other services,140.8,0.3,0.2135
+2026-03-01,ss_oth,Other services,141.1,0.0,0.0
+2026-04-01,ss_oth,Other services,142.5,0.1,0.0702
+2026-05-01,ss_oth,Other services,144.0,0.3,0.2088
+2026-06-01,ss_oth,Other services,145.2,0.9,0.6237
+2026-07-01,ss_oth,Other services,144.6,0.8,0.5563
+2026-08-01,ss_oth,Other services,142.3,-0.2,-0.1404
+2026-09-01,ss_oth,Other services,142.0,0.4,0.2825
+2026-10-01,ss_oth,Other services,142.3,-0.3,-0.2104
+2016-01-01,ss_gov,Government,422.2,,
+2016-02-01,ss_gov,Government,428.6,,
+2016-03-01,ss_gov,Government,429.8,,
+2016-04-01,ss_gov,Government,430.4,,
+2016-05-01,ss_gov,Government,432.6,,
+2016-06-01,ss_gov,Government,423.0,,
+2016-07-01,ss_gov,Government,406.0,,
+2016-08-01,ss_gov,Government,408.2,,
+2016-09-01,ss_gov,Government,425.5,,
+2016-10-01,ss_gov,Government,432.9,,
+2016-11-01,ss_gov,Government,435.7,,
+2016-12-01,ss_gov,Government,437.2,,
+2017-01-01,ss_gov,Government,429.6,7.4,1.7527
+2017-02-01,ss_gov,Government,438.2,9.6,2.2399
+2017-03-01,ss_gov,Government,440.1,10.3,2.3965
+2017-04-01,ss_gov,Government,441.5,11.1,2.579
+2017-05-01,ss_gov,Government,442.6,10.0,2.3116
+2017-06-01,ss_gov,Government,431.1,8.1,1.9149
+2017-07-01,ss_gov,Government,412.1,6.1,1.5025
+2017-08-01,ss_gov,Government,413.1,4.9,1.2004
+2017-09-01,ss_gov,Government,429.2,3.7,0.8696
+2017-10-01,ss_gov,Government,442.0,9.1,2.1021
+2017-11-01,ss_gov,Government,445.8,10.1,2.3181
+2017-12-01,ss_gov,Government,444.1,6.9,1.5782
+2018-01-01,ss_gov,Government,434.6,5.0,1.1639
+2018-02-01,ss_gov,Government,444.8,6.6,1.5062
+2018-03-01,ss_gov,Government,446.8,6.7,1.5224
+2018-04-01,ss_gov,Government,444.9,3.4,0.7701
+2018-05-01,ss_gov,Government,447.3,4.7,1.0619
+2018-06-01,ss_gov,Government,436.6,5.5,1.2758
+2018-07-01,ss_gov,Government,418.5,6.4,1.553
+2018-08-01,ss_gov,Government,419.4,6.3,1.5251
+2018-09-01,ss_gov,Government,436.3,7.1,1.6542
+2018-10-01,ss_gov,Government,445.7,3.7,0.8371
+2018-11-01,ss_gov,Government,449.5,3.7,0.83
+2018-12-01,ss_gov,Government,448.4,4.3,0.9683
+2019-01-01,ss_gov,Government,439.8,5.2,1.1965
+2019-02-01,ss_gov,Government,447.4,2.6,0.5845
+2019-03-01,ss_gov,Government,449.9,3.1,0.6938
+2019-04-01,ss_gov,Government,450.3,5.4,1.2138
+2019-05-01,ss_gov,Government,453.1,5.8,1.2967
+2019-06-01,ss_gov,Government,442.5,5.9,1.3514
+2019-07-01,ss_gov,Government,425.0,6.5,1.5532
+2019-08-01,ss_gov,Government,427.7,8.3,1.979
+2019-09-01,ss_gov,Government,444.7,8.4,1.9253
+2019-10-01,ss_gov,Government,455.5,9.8,2.1988
+2019-11-01,ss_gov,Government,458.8,9.3,2.069
+2019-12-01,ss_gov,Government,457.7,9.3,2.074
+2020-01-01,ss_gov,Government,451.6,11.8,2.683
+2020-02-01,ss_gov,Government,458.4,11.0,2.4586
+2020-03-01,ss_gov,Government,459.0,9.1,2.0227
+2020-04-01,ss_gov,Government,445.4,-4.9,-1.0882
+2020-05-01,ss_gov,Government,435.6,-17.5,-3.8623
+2020-06-01,ss_gov,Government,426.4,-16.1,-3.6384
+2020-07-01,ss_gov,Government,418.6,-6.4,-1.5059
+2020-08-01,ss_gov,Government,430.2,2.5,0.5845
+2020-09-01,ss_gov,Government,445.0,0.3,0.0675
+2020-10-01,ss_gov,Government,448.0,-7.5,-1.6465
+2020-11-01,ss_gov,Government,449.4,-9.4,-2.0488
+2020-12-01,ss_gov,Government,449.3,-8.4,-1.8353
+2021-01-01,ss_gov,Government,442.5,-9.1,-2.0151
+2021-02-01,ss_gov,Government,447.7,-10.7,-2.3342
+2021-03-01,ss_gov,Government,447.2,-11.8,-2.5708
+2021-04-01,ss_gov,Government,449.7,4.3,0.9654
+2021-05-01,ss_gov,Government,448.1,12.5,2.8696
+2021-06-01,ss_gov,Government,437.3,10.9,2.5563
+2021-07-01,ss_gov,Government,423.2,4.6,1.0989
+2021-08-01,ss_gov,Government,429.2,-1.0,-0.2325
+2021-09-01,ss_gov,Government,445.9,0.9,0.2022
+2021-10-01,ss_gov,Government,453.5,5.5,1.2277
+2021-11-01,ss_gov,Government,456.4,7.0,1.5576
+2021-12-01,ss_gov,Government,455.8,6.5,1.4467
+2022-01-01,ss_gov,Government,448.0,5.5,1.2429
+2022-02-01,ss_gov,Government,453.4,5.7,1.2732
+2022-03-01,ss_gov,Government,454.6,7.4,1.6547
+2022-04-01,ss_gov,Government,456.2,6.5,1.4454
+2022-05-01,ss_gov,Government,456.2,8.1,1.8076
+2022-06-01,ss_gov,Government,446.3,9.0,2.0581
+2022-07-01,ss_gov,Government,431.8,8.6,2.0321
+2022-08-01,ss_gov,Government,444.3,15.1,3.5182
+2022-09-01,ss_gov,Government,453.7,7.8,1.7493
+2022-10-01,ss_gov,Government,465.2,11.7,2.5799
+2022-11-01,ss_gov,Government,468.0,11.6,2.5416
+2022-12-01,ss_gov,Government,467.6,11.8,2.5889
+2023-01-01,ss_gov,Government,460.1,12.1,2.7009
+2023-02-01,ss_gov,Government,466.8,13.4,2.9554
+2023-03-01,ss_gov,Government,468.7,14.1,3.1016
+2023-04-01,ss_gov,Government,471.8,15.6,3.4196
+2023-05-01,ss_gov,Government,473.0,16.8,3.6826
+2023-06-01,ss_gov,Government,461.2,14.9,3.3386
+2023-07-01,ss_gov,Government,447.9,16.1,3.7286
+2023-08-01,ss_gov,Government,461.7,17.4,3.9163
+2023-09-01,ss_gov,Government,471.2,17.5,3.8572
+2023-10-01,ss_gov,Government,480.0,14.8,3.1814
+2023-11-01,ss_gov,Government,483.9,15.9,3.3974
+2023-12-01,ss_gov,Government,482.1,14.5,3.1009
+2024-01-01,ss_gov,Government,475.9,15.8,3.434
+2024-02-01,ss_gov,Government,482.1,15.3,3.2776
+2024-03-01,ss_gov,Government,484.5,15.8,3.371
+2024-04-01,ss_gov,Government,486.1,14.3,3.0309
+2024-05-01,ss_gov,Government,487.1,14.1,2.981
+2024-06-01,ss_gov,Government,474.0,12.8,2.7754
+2024-07-01,ss_gov,Government,459.8,11.9,2.6568
+2024-08-01,ss_gov,Government,470.5,8.8,1.906
+2024-09-01,ss_gov,Government,478.2,7.0,1.4856
+2024-10-01,ss_gov,Government,487.3,7.3,1.5208
+2024-11-01,ss_gov,Government,490.2,6.3,1.3019
+2024-12-01,ss_gov,Government,489.6,7.5,1.5557
+2025-01-01,ss_gov,Government,481.5,5.6,1.1767
+2025-02-01,ss_gov,Government,487.0,4.9,1.0164
+2025-03-01,ss_gov,Government,488.1,3.6,0.743
+2025-04-01,ss_gov,Government,489.1,3.0,0.6172
+2025-05-01,ss_gov,Government,490.3,3.2,0.6569
+2025-06-01,ss_gov,Government,478.5,4.5,0.9494
+2025-07-01,ss_gov,Government,464.3,4.5,0.9787
+2025-08-01,ss_gov,Government,475.3,4.8,1.0202
+2025-09-01,ss_gov,Government,486.0,7.8,1.6311
+2025-10-01,ss_gov,Government,495.0,7.7,1.5801
+2025-11-01,ss_gov,Government,496.6,6.4,1.3056
+2025-12-01,ss_gov,Government,496.8,7.2,1.4706
+2026-01-01,ss_gov,Government,486.6,5.1,1.0592
+2026-02-01,ss_gov,Government,491.3,4.3,0.883
+2026-03-01,ss_gov,Government,492.8,4.7,0.9629
+2026-04-01,ss_gov,Government,494.2,5.1,1.0427
+2026-05-01,ss_gov,Government,495.8,5.5,1.1218
+2026-06-01,ss_gov,Government,480.0,1.5,0.3135
+2026-07-01,ss_gov,Government,465.4,1.1,0.2369
+2026-08-01,ss_gov,Government,475.0,-0.3,-0.0631
+2026-09-01,ss_gov,Government,482.9,-3.1,-0.6379
+2026-10-01,ss_gov,Government,491.3,-3.7,-0.7475

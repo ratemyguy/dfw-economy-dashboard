@@ -1,0 +1,11 @@
+date,key,supersector,jobs_k,yoy_k,yoy_pct,share_of_net_change_pct
+2026-10-01,ss_pbs,Professional & business services,829.8,44.6,5.68,64.731
+2026-10-01,ss_ttu,"Trade, transportation & utilities",908.4,13.7,1.531,19.884
+2026-10-01,ss_mlc,"Mining, logging & construction",277.7,10.6,3.969,15.385
+2026-10-01,ss_mfg,Manufacturing,315.2,2.8,0.896,4.064
+2026-10-01,ss_edh,Private education & health services,529.2,2.6,0.494,3.774
+2026-10-01,ss_fin,Financial activities,394.3,2.1,0.535,3.048
+2026-10-01,ss_lh,Leisure & hospitality,431.8,0.6,0.139,0.871
+2026-10-01,ss_oth,Other services,142.3,-0.3,-0.21,-0.435
+2026-10-01,ss_gov,Government,491.3,-3.7,-0.748,-5.37
+2026-10-01,ss_info,Information,82.8,-4.1,-4.718,-5.951

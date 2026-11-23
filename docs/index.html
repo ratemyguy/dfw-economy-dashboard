@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DFW Economy Dashboard</title>
+<meta name="description" content="A monthly-refreshing dashboard of the Dallas-Fort Worth economy: jobs, unemployment, wages, inflation, home prices and mortgage rates, built from public BLS and FRED data.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.plot.ly; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    --navy: #1F3A5F; --teal: #2A9D8F; --yellow: #E9C46A; --orange: #E76F51; --gray: #8D99AE;
+    --ink: #1d2733; --muted: #5b6676; --line: #e1e6ee; --bg: #f5f7fa; --card: #ffffff;
+    --radius: 10px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-size: 16px; line-height: 1.5; }
+  a { color: var(--navy); }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  header.site { background: var(--navy); color: #fff; padding: 28px 0 22px; }
+  header.site .eyebrow { margin: 0 0 4px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: #c9d6e8; }
+  header.site h1 { margin: 0; font-size: clamp(26px, 4.5vw, 38px); line-height: 1.15; }
+  header.site .lede { margin: 8px 0 0; max-width: 760px; color: #e8eef7; font-size: 17px; }
+  header.site .meta { margin: 12px 0 0; font-size: 14px; color: #c9d6e8; }
+  header.site a { color: #fff; }
+
+  main { padding: 20px 0 8px; }
+  h2.section { font-size: 21px; margin: 30px 0 10px; color: var(--navy); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); }
+
+  .kpis { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+  .kpi { padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; }
+  .kpi h3 { margin: 0; font-size: 14px; font-weight: 600; color: var(--muted); }
+  .kpi .value { margin: 2px 0 0; font-size: 30px; font-weight: 700; color: var(--navy); line-height: 1.15; font-variant-numeric: tabular-nums; }
+  .kpi .period { margin: 0; font-size: 14px; color: var(--ink); }
+  .badge { display: inline-block; margin-left: 6px; padding: 0 7px; border-radius: 999px; font-size: 12px; font-weight: 600;
+           background: #fdf3d8; color: #7a5a00; border: 1px solid var(--yellow); vertical-align: 1px; }
+  .kpi ul { list-style: none; margin: 6px 0 0; padding: 0; font-size: 14px; font-variant-numeric: tabular-nums; }
+  .kpi li { padding: 1px 0; }
+  .kpi .adj { margin: 6px 0 0; font-size: 12.5px; color: var(--muted); }
+  .kpi .context { margin: 4px 0 0; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 6px; }
+
+  .signals { margin-top: 12px; padding: 12px 16px; }
+  .signals h2 { margin: 0 0 8px; font-size: 15px; color: var(--navy); }
+  .signal-grid { display: grid; gap: 10px 18px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  .signal .label { margin: 0; font-size: 13px; color: var(--muted); }
+  .signal .val { margin: 0; font-size: 20px; font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .signal .note { margin: 0; font-size: 12.5px; color: var(--muted); }
+
+  .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 26px 0 0; font-size: 14px; }
+  .toolbar button { font: inherit; font-size: 14px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line);
+                    background: #fff; color: var(--ink); cursor: pointer; min-height: 36px; }
+  .toolbar button[aria-pressed="true"] { background: var(--navy); border-color: var(--navy); color: #fff; }
+
+  .grid-2 { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); }
+  .grid-3 { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
+  .stack { display: grid; gap: 14px; }
+  figure.chart-card { margin: 0; padding: 14px 14px 10px; min-width: 0; }
+  figure.chart-card h3 { margin: 0; font-size: 17px; color: var(--navy); }
+  figure.chart-card .headline { margin: 4px 0 6px; font-size: 14.5px; }
+  .chart { width: 100%; height: 340px; }
+  .chart.short { height: 300px; }
+  .chart.tall { height: 400px; }
+  figure.chart-card figcaption { margin: 6px 0 0; font-size: 12.5px; color: var(--muted); }
+
+  .notes { margin-top: 30px; padding: 18px 20px; font-size: 14.5px; }
+  .notes h2 { margin: 0 0 8px; font-size: 20px; color: var(--navy); }
+  .notes h3 { margin: 18px 0 4px; font-size: 16px; }
+  .notes p, .notes li { max-width: 900px; }
+  .notes dl { margin: 0; }
+  .notes dt { font-weight: 600; margin-top: 10px; }
+  .notes dd { margin: 2px 0 0; }
+  .table-wrap { overflow-x: auto; }
+  table.asof { border-collapse: collapse; font-size: 13.5px; min-width: 520px; }
+  table.asof th, table.asof td { text-align: left; padding: 5px 10px 5px 0; border-bottom: 1px solid var(--line); }
+  .error { margin-top: 16px; padding: 14px 16px; border-left: 4px solid var(--orange); background: #fff4f0; }
+  footer { padding: 20px 0 34px; font-size: 13.5px; color: var(--muted); }
+  @media (max-width: 560px) {
+    .chart { height: 300px; }
+    .chart.tall { height: 380px; }
+    .kpi .value { font-size: 27px; }
+    figure.chart-card { padding: 12px 10px 8px; }
+  }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <p class="eyebrow">Dallas&ndash;Fort Worth&ndash;Arlington metro &middot; refreshed monthly</p>
+    <h1>DFW Economy Dashboard</h1>
+    <p class="lede">Is the Dallas&ndash;Fort Worth economy heating up or cooling down? Jobs, unemployment, wages, inflation and housing in one page, rebuilt automatically each month from public BLS and FRED data.</p>
+    <p class="meta" id="asof-summary">Loading the latest data&hellip;</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <noscript><p class="error">This dashboard needs JavaScript to draw its numbers and charts. The data are also available as <a href="data/derived_monthly.csv">a CSV file</a> and <a href="data/dashboard.json">JSON</a>.</p></noscript>
+  <div id="load-error" class="error" hidden></div>
+
+  <section aria-labelledby="kpi-h">
+    <h2 id="kpi-h" class="sr-only">Key numbers</h2>
+    <div class="kpis" id="kpis"></div>
+  </section>
+
+  <section class="card signals" aria-labelledby="signals-h">
+    <h2 id="signals-h">Derived signals</h2>
+    <div class="signal-grid" id="signals"></div>
+  </section>
+
+  <div class="toolbar" role="group" aria-label="Time window for the charts">
+    <span>Time window:</span>
+    <button type="button" data-window="2" aria-pressed="false">Last 2 years</button>
+    <button type="button" data-window="5" aria-pressed="true">Last 5 years</button>
+    <button type="button" data-window="all" aria-pressed="false">Since 2016</button>
+  </div>
+
+  <h2 class="section">Labor market</h2>
+  <div class="stack">
+    <figure class="card chart-card" data-chart="unemployment">
+      <h3></h3><p class="headline"></p>
+      <div class="chart" role="img"></div>
+      <figcaption>Dotted line: the DFW rate as BLS publishes it (not seasonally adjusted). Solid navy: this project&rsquo;s seasonally adjusted estimate (see notes). Texas and U.S.: BLS&rsquo;s official seasonally adjusted rates.</figcaption>
+    </figure>
+    <figure class="card chart-card" data-chart="jobs">
+      <h3></h3><p class="headline"></p>
+      <div class="chart" role="img"></div>
+      <figcaption>Payroll jobs, seasonally adjusted, compared with the same month a year earlier. Gray bars: DFW growth minus U.S. growth, in percentage points.</figcaption>
+    </figure>
+    <div class="grid-2">
+      <figure class="card chart-card" data-chart="monthly_jobs">
+        <h3></h3><p class="headline"></p>
+        <div class="chart" role="img"></div>
+        <figcaption>Month-to-month change in seasonally adjusted payroll jobs. Single months are noisy and the latest one is preliminary; the 3-month average is steadier.</figcaption>
+      </figure>
+      <figure class="card chart-card" data-chart="supersectors">
+        <h3></h3><p class="headline"></p>
+        <div class="chart tall" role="img"></div>
+        <figcaption>Not seasonally adjusted, so each sector is compared with the same month a year earlier. Hover or tap a bar for the % change.</figcaption>
+      </figure>
+    </div>
+    <figure class="card chart-card" data-chart="sahm">
+      <h3></h3><p class="headline"></p>
+      <div class="chart" role="img"></div>
+      <figcaption>3-month average unemployment rate minus its lowest 3-month average in the prior 12 months. Claudia Sahm&rsquo;s rule flags a national recession at 0.5 points; using it for one metro (with a seasonal adjustment estimated here) is a heuristic.</figcaption>
+    </figure>
+  </div>
+
+  <h2 class="section">Wages and prices</h2>
+  <div class="grid-2">
+    <figure class="card chart-card" data-chart="wages">
+      <h3></h3><p class="headline"></p>
+      <div class="chart" role="img"></div>
+      <figcaption>Average hourly earnings of all private-sector employees in DFW vs CPI-U inflation (DFW index published every other month; U.S. monthly). All not seasonally adjusted, so each is compared with a year earlier.</figcaption>
+    </figure>
+    <figure class="card chart-card" data-chart="real_wages">
+      <h3></h3><p class="headline"></p>
+      <div class="chart" role="img"></div>
+      <figcaption>Wage growth minus inflation over the same 12 months, in percentage points. Above zero, pay is outrunning prices.</figcaption>
+    </figure>
+  </div>
+
+  <h2 class="section">Housing</h2>
+  <div class="grid-3">
+    <figure class="card chart-card" data-chart="hpi">
+      <h3></h3><p class="headline"></p>
+      <div class="chart short" role="img"></div>
+      <figcaption>FHFA all-transactions house price index for the Dallas-Plano-Irving and Fort Worth-Arlington-Grapevine divisions of the metro. Quarterly, not seasonally adjusted, so each quarter is compared with the same quarter a year earlier.</figcaption>
+    </figure>
+    <figure class="card chart-card" data-chart="mortgage">
+      <h3></h3><p class="headline"></p>
+      <div class="chart short" role="img"></div>
+      <figcaption>Freddie Mac&rsquo;s U.S. average for a 30-year fixed loan, averaged over the weekly surveys in each completed month.</figcaption>
+    </figure>
+    <figure class="card chart-card" data-chart="permits">
+      <h3></h3><p class="headline"></p>
+      <div class="chart short" role="img"></div>
+      <figcaption>New private housing units authorized by building permits in the DFW metro, summed over the latest 12 months (removes seasonality).</figcaption>
+    </figure>
+  </div>
+
+  <section class="card notes" aria-labelledby="notes-h">
+    <h2 id="notes-h">Notes, definitions and sources</h2>
+    <h3>Data as of</h3>
+    <div class="table-wrap">
+      <table class="asof">
+        <thead><tr><th>Series</th><th>Latest</th><th>Adjustment</th><th>Source ID</th></tr></thead>
+        <tbody id="asof-table"></tbody>
+      </table>
+    </div>
+    <p id="gaps"></p>
+
+    <h3>How to read these numbers</h3>
+    <dl>
+      <dt>Seasonal adjustment</dt>
+      <dd>Seasonally adjusted (SA) data remove regular calendar swings such as summer hiring. BLS publishes DFW, Texas and U.S. payroll jobs and the Texas and U.S. unemployment rates seasonally adjusted. The DFW unemployment rate, DFW hourly earnings, payroll jobs by sector and both CPI series are published <em>not</em> seasonally adjusted, so this page compares them with the same month a year earlier. Month-to-month changes in those series mix in normal seasonal swings.</dd>
+      <dt>This project&rsquo;s seasonal adjustment of the DFW unemployment rate</dt>
+      <dd>BLS does not publish a seasonally adjusted DFW unemployment rate. The solid DFW line is estimated here with a classical decomposition: a centered 2&times;12 moving average gives the trend, each calendar month&rsquo;s factor is the median gap between the rate and that trend (March 2020&ndash;December 2021 left out), and the factors are fixed over time. <span id="sa-check"></span></dd>
+      <dt>Preliminary and revised data</dt>
+      <dd>The latest month of state and metro data (and the latest two months of national payrolls) are preliminary and are revised a month later; preliminary values carry a yellow &ldquo;Preliminary&rdquo; tag. Each year BLS re-benchmarks state and metro payroll and unemployment estimates (published with January data in March), which can revise earlier months. FHFA house prices (revised with every release), mortgage-rate and permit values can also be revised.</dd>
+      <dt>Metro and state definitions</dt>
+      <dd>&ldquo;DFW&rdquo; is the Dallas-Fort Worth-Arlington, TX Metropolitan Statistical Area as BLS defines it for these statistics. The unemployment rate (LAUS) counts residents by where they live, from a model that combines survey, payroll and unemployment-insurance data. Payroll jobs (CES) count jobs by where they are, including people who commute in, and leave out the self-employed; a person with two jobs counts twice. Texas covers the whole state. The CPI area &ldquo;Dallas-Fort Worth-Arlington&rdquo; is defined by the CPI program and may not match the metro used for jobs exactly.</dd>
+      <dt>Inflation (CPI-U)</dt>
+      <dd>The DFW CPI-U is published every other month (January, March, May, July, September, November) from a smaller sample than the national index, so it is noisier. Inflation is the 12-month % change in the index.</dd>
+      <dt>Year-over-year changes and real wages</dt>
+      <dd>12-month changes compare a month with the same calendar month a year earlier; if either month is missing the change is left blank (never interpolated). Real wage growth = wage growth minus inflation over the same 12 months (the standard approximation). Average hourly earnings can rise when lower-paid jobs disappear (a composition effect), and the metro series is volatile, so read single months with care.</dd>
+      <dt>Housing</dt>
+      <dd>House prices come from the Federal Housing Finance Agency&rsquo;s all-transactions House Price Index: a weighted repeat-sales index of single-family homes whose mortgages were bought or securitized by Fannie Mae or Freddie Mac, using sale prices and appraisals. It is published quarterly for each of the metro&rsquo;s two divisions (Dallas-Plano-Irving and Fort Worth-Arlington-Grapevine) and is not seasonally adjusted, so the page compares each quarter with the same quarter a year earlier; it is never spread across months. Homes bought with cash or non-conforming loans are not covered. The mortgage rate is a national average, not a DFW rate. Building permits count authorizations, not homes started or finished.</dd>
+      <dt>Sahm-rule-style gauge</dt>
+      <dd>A heuristic adapted from Claudia Sahm&rsquo;s national recession rule: the 3-month average unemployment rate minus its lowest 3-month average over the previous 12 months. The 0.5-point threshold was calibrated on U.S. data and has not been validated for metro areas; small errors in the seasonal adjustment move the DFW gauge. It is not a recession forecast.</dd>
+    </dl>
+
+    <h3>Sources</h3>
+    <ul id="sources"></ul>
+    <p id="bls-terms">BLS data were retrieved through the BLS Public Data API. BLS.gov cannot vouch for the data or analyses derived from these data after the data have been retrieved from BLS.gov.</p>
+    <p>Download the data behind this page: <a href="data/derived_monthly.csv">monthly metrics (CSV)</a> &middot; <a href="data/derived_quarterly.csv">quarterly house prices (CSV)</a> &middot; <a href="data/dashboard.json">dashboard data (JSON)</a>. Code, method and a written analysis: <a id="repo-link" href="https://github.com/ratemyguy/dfw-economy-dashboard">github.com/ratemyguy/dfw-economy-dashboard</a>.</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p id="built"></p>
+  <p>No cookies, analytics or trackers. Charts are drawn with Plotly.js loaded from cdn.plot.ly. Built by Jude (Joochan) Lee &middot; <a href="https://github.com/ratemyguy">GitHub @ratemyguy</a> &middot; <a href="https://www.linkedin.com/in/judeee">LinkedIn</a>.</p>
+</footer>
+
+<script src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha384-AFNp2MtSm5/oZbEs/J19F/Ah57MEiVsoed8nE3fq2Wnccdl1u/EkyJ9XKKU8rt7+" crossorigin="anonymous"></script>
+<script>
+(function () {
+  "use strict";
+  var COLORS = { navy: "#1F3A5F", teal: "#2A9D8F", yellow: "#E9C46A", orange: "#E76F51", gray: "#8D99AE" };
+  var FONT = 'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif';
+  var state = { data: null, window: "5" };
+
+  function el(tag, cls, text) {
+    var node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text !== undefined && text !== null) node.textContent = text;
+    return node;
+  }
+
+  function showError(message) {
+    var box = document.getElementById("load-error");
+    box.hidden = false;
+    box.textContent = message;
+  }
+
+  function renderHeader(d) {
+    var parts = [];
+    var pick = { "DFW payroll jobs": "Jobs and wages", "DFW unemployment rate": "DFW unemployment",
+                 "U.S. CPI-U": "U.S. inflation", "DFW CPI-U (bimonthly)": "DFW inflation",
+                 "Home prices, Dallas division (FHFA, quarterly)": "Home prices", "30-year mortgage rate (weekly)": "Mortgage rate" };
+    d.as_of.forEach(function (a) {
+      if (pick[a.label]) parts.push(pick[a.label] + ": " + a.as_of + (a.preliminary ? " (prelim.)" : ""));
+    });
+    document.getElementById("asof-summary").textContent = "Data as of — " + parts.join(" · ");
+    document.getElementById("built").textContent = "Data last changed: " + d.built_utc +
+      ". The page is rebuilt by a scheduled GitHub Actions job each month.";
+    document.getElementById("bls-terms").textContent = "BLS data were retrieved through the BLS Public Data API " +
+      "(this version accessed " + d.built_utc.slice(0, 10) + "). BLS.gov cannot vouch for the data or analyses " +
+      "derived from these data after the data have been retrieved from BLS.gov.";
+    document.getElementById("repo-link").href = d.repo_url;
+  }
+
+  function renderKpis(d) {
+    var box = document.getElementById("kpis");
+    d.kpis.forEach(function (k) {
+      var card = el("article", "card kpi");
+      card.appendChild(el("h3", null, k.label));
+      card.appendChild(el("p", "value", k.value_fmt));
+      var period = el("p", "period", k.period);
+      if (k.preliminary) period.appendChild(el("span", "badge", "Preliminary"));
+      card.appendChild(period);
+      var ul = el("ul");
+      ul.appendChild(el("li", null, k.delta_prior));
+      ul.appendChild(el("li", null, k.delta_year));
+      card.appendChild(ul);
+      card.appendChild(el("p", "adj", k.adjustment));
+      if (k.context) card.appendChild(el("p", "context", k.context));
+      box.appendChild(card);
+    });
+  }
+
+  function renderSignals(d) {
+    var box = document.getElementById("signals");
+    d.signals.forEach(function (s) {
+      var div = el("div", "signal");
+      div.appendChild(el("p", "label", s.label));
+      div.appendChild(el("p", "val", s.value_fmt));
+      div.appendChild(el("p", "note", s.period + " · " + s.note));
+      box.appendChild(div);
+    });
+  }
+
+  function renderNotes(d) {
+    var body = document.getElementById("asof-table");
+    d.as_of.forEach(function (a) {
+      var tr = el("tr");
+      tr.appendChild(el("td", null, a.label));
+      tr.appendChild(el("td", null, a.as_of + (a.preliminary ? " (preliminary)" : "")));
+      tr.appendChild(el("td", null, a.adjustment));
+      var td = el("td");
+      var link = el("a", null, a.series_id);
+      link.href = a.url;
+      td.appendChild(link);
+      tr.appendChild(td);
+      body.appendChild(tr);
+    });
+    document.getElementById("gaps").textContent = d.notes.gaps.join(" ");
+    document.getElementById("sa-check").textContent = d.notes.seasonal_adjustment_check;
+    var ul = document.getElementById("sources");
+    d.sources.forEach(function (s) {
+      var li = el("li");
+      var a = el("a", null, s.name);
+      a.href = s.url;
+      li.appendChild(a);
+      li.appendChild(document.createTextNode(" — " + s.detail));
+      ul.appendChild(li);
+    });
+  }
+
+  // ---------------------------------------------------------------- charts --
+  function hoverTemplate(t) {
+    // Unified hover shows one box per date; each line needs its series name.
+    var fmt = "%{y:,." + (t.hover_decimals === undefined ? 1 : t.hover_decimals) + "f}";
+    var label = (t.hover_name || t.name).replace(/[<>&]/g, "");
+    return label + ": " + fmt + (t.hover_unit || "") + "<extra></extra>";
+  }
+
+  function toPlotly(t) {
+    var base = { name: t.name, x: t.x, y: t.y, hovertemplate: hoverTemplate(t) };
+    if (t.kind === "bar") {
+      base.type = "bar";
+      base.marker = { color: t.color, opacity: t.opacity };
+      return base;
+    }
+    base.type = "scatter";
+    base.mode = t.kind === "line+markers" ? "lines+markers" : "lines";
+    base.line = { color: t.color, width: t.width, dash: t.dash };
+    base.marker = { color: t.color, size: 5 };
+    base.opacity = t.opacity;
+    base.connectgaps = false;
+    return base;
+  }
+
+  function addYears(iso, years) {
+    var d = new Date(iso + "T00:00:00Z");
+    d.setUTCFullYear(d.getUTCFullYear() + years);
+    return d.toISOString().slice(0, 10);
+  }
+
+  function addDays(iso, days) {
+    var d = new Date(iso + "T00:00:00Z");
+    d.setUTCDate(d.getUTCDate() + days);
+    return d.toISOString().slice(0, 10);
+  }
+
+  function chartWindow(c) {
+    var first = null, last = null;
+    c.traces.forEach(function (t) {
+      for (var i = 0; i < t.x.length; i++) {
+        if (t.y[i] === null) continue;
+        if (first === null || t.x[i] < first) first = t.x[i];
+        if (last === null || t.x[i] > last) last = t.x[i];
+      }
+    });
+    if (first === null) return null;
+    var start = state.window === "all" ? (c.start && c.start > first ? c.start : first)
+                                       : addYears(last, -Number(state.window));
+    if (start < first) start = first;
+    return [addDays(start, -20), addDays(last, 20)];
+  }
+
+  function yRange(c, xr) {
+    var lo = Infinity, hi = -Infinity;
+    c.traces.forEach(function (t) {
+      var isBar = t.kind === "bar";
+      for (var i = 0; i < t.x.length; i++) {
+        var y = t.y[i];
+        if (y === null || t.x[i] < xr[0] || t.x[i] > xr[1]) continue;
+        if (y < lo) lo = y;
+        if (y > hi) hi = y;
+        if (isBar) { if (0 < lo) lo = 0; if (0 > hi) hi = 0; }
+      }
+    });
+    if (!isFinite(lo)) return null;
+    if (c.zero_line) { lo = Math.min(lo, 0); hi = Math.max(hi, 0); }
+    if (c.threshold !== undefined) hi = Math.max(hi, c.threshold + 0.1);
+    var pad = (hi - lo) * 0.08 || 0.5;
+    return [lo - pad, hi + pad];
+  }
+
+  function baseLayout(c) {
+    return {
+      margin: { l: 52, r: 14, t: 10, b: 34 },
+      font: { family: FONT, size: 12, color: "#1d2733" },
+      paper_bgcolor: "#ffffff", plot_bgcolor: "#ffffff",
+      hovermode: "x unified",
+      hoverlabel: { font: { family: FONT, size: 12 } },
+      legend: { orientation: "h", x: 0, xanchor: "left", y: 1.02, yanchor: "bottom", font: { size: 11.5 } },
+      xaxis: { type: "date", showgrid: false, ticks: "outside", ticklen: 4, linecolor: "#c7ced9", fixedrange: true,
+               hoverformat: "%b %Y" },
+      yaxis: { title: { text: c.y_title || "", font: { size: 11.5 } }, gridcolor: "#e6eaf0", zeroline: false,
+               fixedrange: true, automargin: true },
+      bargap: 0.12,
+      shapes: [],
+      annotations: []
+    };
+  }
+
+  function drawTimeChart(name, c, div) {
+    var layout = baseLayout(c);
+    if (c.x_hoverformat) layout.xaxis.hoverformat = c.x_hoverformat;   // e.g. "Q%q %Y" for quarterly data
+    var xr = chartWindow(c);
+    if (xr) {
+      layout.xaxis.range = xr;
+      var yr = yRange(c, xr);
+      if (yr) layout.yaxis.range = yr;
+    }
+    if (c.zero_line) {
+      layout.shapes.push({ type: "line", xref: "paper", x0: 0, x1: 1, yref: "y", y0: 0, y1: 0,
+                           line: { color: "#9aa5b4", width: 1 } });
+    }
+    if (c.threshold !== undefined) {
+      layout.shapes.push({ type: "line", xref: "paper", x0: 0, x1: 1, yref: "y", y0: c.threshold, y1: c.threshold,
+                           line: { color: COLORS.orange, width: 1.5, dash: "dash" } });
+      layout.annotations.push({ xref: "paper", x: 0.01, y: c.threshold, yref: "y", yanchor: "bottom", showarrow: false,
+                                text: c.threshold + " threshold (national rule)", font: { size: 11, color: COLORS.orange } });
+    }
+    (c.gap_marks || []).forEach(function (g) {
+      layout.shapes.push({ type: "line", xref: "x", x0: g.x, x1: g.x, yref: "paper", y0: 0, y1: 1,
+                           line: { color: "#b8c0cc", width: 1, dash: "dot" } });
+      layout.annotations.push({ xref: "x", x: g.x, yref: "paper", y: 1, yanchor: "top", xanchor: "right",
+                                showarrow: false, text: g.text, font: { size: 10.5, color: "#5b6676" } });
+    });
+    var traces = c.traces.map(toPlotly);
+    Plotly.react(div, traces, layout, { responsive: true, displayModeBar: false, scrollZoom: false });
+  }
+
+  function drawSupersectors(c, div) {
+    var colors = c.values.map(function (v) { return v >= 0 ? COLORS.teal : COLORS.orange; });
+    var custom = c.values.map(function (v, i) { return [c.pct[i], c.levels[i]]; });
+    var trace = {
+      type: "bar", orientation: "h", y: c.categories, x: c.values, marker: { color: colors },
+      customdata: custom,
+      hovertemplate: "%{y}<br>%{x:+.1f}K jobs (%{customdata[0]:+.1f}%)<br>Level: %{customdata[1]:,.1f}K<extra></extra>"
+    };
+    // Value labels sit just right of max(value, 0), so labels of negative bars never
+    // collide with the category names on the left (matters on narrow phones).
+    var labels = c.values.map(function (v, i) {
+      return { x: Math.max(v, 0), y: c.categories[i], xref: "x", yref: "y", xanchor: "left", xshift: 4,
+               showarrow: false, text: (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(1) + "K",
+               font: { size: 11.5, color: "#1d2733" } };
+    });
+    var lo = Math.min(0, Math.min.apply(null, c.values));
+    var hi = Math.max(0, Math.max.apply(null, c.values));
+    var span = (hi - lo) || 1;
+    var layout = {
+      margin: { l: 10, r: 10, t: 10, b: 40 },
+      font: { family: FONT, size: 12, color: "#1d2733" },
+      paper_bgcolor: "#ffffff", plot_bgcolor: "#ffffff",
+      xaxis: { title: { text: c.x_title, font: { size: 11.5 } }, zeroline: true, zerolinecolor: "#9aa5b4",
+               gridcolor: "#e6eaf0", fixedrange: true, range: [lo - span * 0.06, hi + span * 0.32] },
+      yaxis: { automargin: true, fixedrange: true, tickfont: { size: 11.5 } },
+      annotations: labels,
+      showlegend: false,
+      hoverlabel: { font: { family: FONT, size: 12 } }
+    };
+    Plotly.react(div, [trace], layout, { responsive: true, displayModeBar: false });
+  }
+
+  function renderCharts() {
+    var d = state.data;
+    document.querySelectorAll("figure[data-chart]").forEach(function (fig) {
+      var name = fig.getAttribute("data-chart");
+      var c = d.charts[name];
+      var empty = !c || (c.traces ? c.traces.every(function (t) { return t.x.length === 0; })
+                                  : !(c.values && c.values.length));
+      if (empty) { fig.hidden = true; return; }   // a source that never loaded: hide its chart
+      fig.querySelector("h3").textContent = c.title;
+      fig.querySelector(".headline").textContent = c.headline;
+      var div = fig.querySelector(".chart");
+      div.setAttribute("aria-label", c.title + ". " + c.headline);
+      if (name === "supersectors") drawSupersectors(c, div);
+      else drawTimeChart(name, c, div);
+    });
+  }
+
+  function bindToolbar() {
+    document.querySelectorAll(".toolbar button").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        state.window = btn.getAttribute("data-window");
+        document.querySelectorAll(".toolbar button").forEach(function (b) {
+          b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+        });
+        renderCharts();
+      });
+    });
+  }
+
+  fetch("data/dashboard.json", { cache: "no-cache" })
+    .then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    })
+    .then(function (d) {
+      state.data = d;
+      renderHeader(d);
+      renderKpis(d);
+      renderSignals(d);
+      renderNotes(d);
+      if (typeof Plotly === "undefined") {
+        showError("The charts could not load (Plotly.js from cdn.plot.ly was blocked or unavailable). The numbers above and the notes below are complete.");
+        return;
+      }
+      bindToolbar();
+      renderCharts();
+    })
+    .catch(function (err) {
+      document.getElementById("asof-summary").textContent = "";
+      showError("Could not load data/dashboard.json (" + err.message + "). If you opened this file directly from disk, serve the docs/ folder with a local web server instead.");
+    });
+})();
+</script>
+</body>
+</html>

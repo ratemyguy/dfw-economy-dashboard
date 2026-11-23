@@ -1,0 +1,27 @@
+check,series_id,date,detail
+missing value published by source,CUUR0000SA0,2025-10-01,Data unavailable due to the 2025 lapse in appropriations
+missing value published by source,LASST480000000000003,2025-10-01,Data unavailable due to the 2025 lapse in appropriations.
+missing value published by source,LAUMT481910000000003,2025-10-01,Data unavailable due to the 2025 lapse in appropriations.
+missing value published by source,LAUST480000000000003,2025-10-01,Data unavailable due to the 2025 lapse in appropriations.
+missing value published by source,LNS14000000,2025-10-01,Data unavailable due to the 2025 lapse in appropriations.
+missing value published by source,LNU04000000,2025-10-01,Data unavailable due to the 2025 lapse in appropriations.
+preliminary value,SMU48191000500000003,2026-10-01,BLS footnote code P
+preliminary value,SMU48191000000000001,2026-10-01,BLS footnote code P
+preliminary value,SMS48191000000000001,2026-10-01,BLS footnote code P
+preliminary value,SMS48000000000000001,2026-10-01,BLS footnote code P
+preliminary value,CES0000000001,2026-09-01,BLS footnote code P
+preliminary value,CES0000000001,2026-10-01,BLS footnote code P
+preliminary value,SMU48191006500000001,2026-10-01,BLS footnote code P
+preliminary value,SMU48191005500000001,2026-10-01,BLS footnote code P
+preliminary value,SMU48191009000000001,2026-10-01,BLS footnote code P
+preliminary value,SMU48191005000000001,2026-10-01,BLS footnote code P
+preliminary value,SMU48191007000000001,2026-10-01,BLS footnote code P
+preliminary value,SMU48191003000000001,2026-10-01,BLS footnote code P
+preliminary value,SMU48191001500000001,2026-10-01,BLS footnote code P
+preliminary value,SMU48191008000000001,2026-10-01,BLS footnote code P
+preliminary value,SMU48191006000000001,2026-10-01,BLS footnote code P
+preliminary value,SMU48191004000000001,2026-10-01,BLS footnote code P
+preliminary value,LAUMT481910000000003,2026-09-01,BLS footnote code P
+preliminary value,LAUST480000000000003,2026-10-01,BLS footnote code P
+preliminary value,LASST480000000000003,2026-10-01,BLS footnote code P
+10 supersectors sum to total nonfarm (NSA),SMU48191000000000001,2016-01-01 to 2026-10-01,max absolute difference 0.00 thousand over 130 months

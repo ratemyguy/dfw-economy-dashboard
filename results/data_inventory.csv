@@ -1,0 +1,6 @@
+file,rows,columns,first_date,last_date
+data/processed/observations.csv,3575,5,2016-01-01,2026-11-19
+data/processed/series.csv,26,15,,
+data/processed/derived_monthly.csv,130,51,2016-01-01,2026-10-01
+data/processed/supersectors.csv,1300,6,2016-01-01,2026-10-01
+data/processed/derived_quarterly.csv,42,6,2016-01-01,2026-04-01
